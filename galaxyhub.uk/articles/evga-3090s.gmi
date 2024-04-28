@@ -1,0 +1,9 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# EVGA Explains Why its 3090S Were Blowing Up In New World
+### It wasn't the fan controller after all.
+
+### November, 2021
+The mystery behind why one brand and model of GeForce RTX 3090 were failing in Amazon's soon-to-be-released New World is solved. After some serious investigations into the problem involving X-rays, it has pointed the finger of shame at some dodgy soldering of the MOSFETs on a small batch of cards.
+
+EVGA said it only received about two dozen dead RTX 3090s that has failed from playing the New World beta. EVGA sent replacement RTX 3090s to affected gamers after the story broke, and didn't wait for the failed cards to be returned first, turning a potential PR disaster into something of a win, as this is very much not the norm.

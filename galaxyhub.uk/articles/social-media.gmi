@@ -1,0 +1,10 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# World's Biggest Social Media Company Does More Anti-Social Things
+### Facebook accused of misleading academics, and it's getting investigated by the US Senate Commerce Committee.
+
+Look, we don't want to be covering Facebook again either, but the company it seems is incapable of avoiding serious international scandals for any meaningful length of time. While each of these outrages would be enough to sink plenty of Silicon Valley companies, this particular one seems to be coated in a Facebook-blue shade of Teflon.
+
+Take the second week of September, for example. A report by the New York Times detailed how Facebook had been providing academics incomplete and potentially misleading data on Facebook misinformation for years. The company had permitted access to its data for researchers studying the spread of misinformation on the site for the last couple of years in order to build trust in the brand, however the Times report noted that the data it's been providing included only around half of users in the US, and only ones that engaged at a high level with political content. A Facebook spokesman explained the issue as a "technical error" and email to researchers include apologies from Facebook for the "inconvenience it may have caused", but the company also cut off access to the NYA Ad Observatory Project for using its own browser plug-in to collect its own data on the site's political advertising.
+
+A few days later The Wall Street Journal published an article on how Facebook gives a select group of VIP's the permission to violate policy guidelines in lieu of a review by employees that generally never eventuate. "XCheck" (cross check) allows high-profile public figures to be "whitelisted" and avoid immediate content moderation. They also wouldn't be subject to the same sanctions as regular users for major violations. The WSJ noted that in 2019 Facebook allowed soccer star Neymar to post a nude photo of a woman that had accused him of rape to tens of millions of fans before the content was removed.

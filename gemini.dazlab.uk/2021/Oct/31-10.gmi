@@ -1,0 +1,47 @@
+=> gemini://gemini.dazlab.uk/index.gmi Go Back
+
+# Setting MIME-Types For Custom Applications in Fedora (Gnome)
+### 31st October, 2021
+
+Having recently started using the Lagrange Gemini client, which is absolutely fantastic, I got to thinking that it would be nice if:
+
+* I could have it appear in my Gnome Applications
+* I could set it up for working on .gmi files offline, for drafting articles locally before publishing, and have an application/x-gemini MIME handler that allows me to open up any local Gemini file in Lagrange by double-clicking the file icon.
+
+> I should add here that I compiled Lagrange from source, giving me a binary which I plonked in my /usr/local/bin directory. Thus, all of the extra conveniences that an installer provides (such as setting up said file associations) was absent in my case.
+
+The first part was easy enough; I just created the requisite .desktop file and pointed it to an icon file and an executable.
+
+For the second part, I was hoping to find a package that abstracts all the manual configuration stuff. Unfortunately, I couldn't find anything useful in the Fedora repos.
+
+## I'll do it MIME-self
+
+Terrible wordplay aside, I thought it might actually be interesting to create the custom MIME type manually. As it turns out, it was, although it involved a deal of jumping around the file system, a fair bit of trial and error, and about four cups of coffee to get the job done. Consequently, I decided to Gemlog the process in case I ever feel the need to do it again.
+
+Firstly, for anyone wanting to do the same, I'll save you much "Googling" and provide a couple of links to the info that worked for me. Bear in mind these instructions are for Fedora, and should work for any RPM-based distro, but obviously your mileage may vary in other distributions and DE's.
+
+=> https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/desktop_migration_and_administration_guide/file_formats Red Hat Documentation / MimeTypes
+=> https://forums.fedoraforum.org/showthread.php?300927-Running-a-script-on-desktop Useful Forum Post with Additional Steps
+
+After running through the steps on the Red Hat Doc site, I managed to successfully get the .gmi extension associated with the new custom MIME type; when opening up the file properties, the type of text/plain was now
+
+> Gemini Protocol File (application/x-gemini)
+
+The issue I had, however, was that Gnome didn't detect ANY compatible applications for the new type.
+
+This was strange, as the .desktop file had all the required information, was pointing to the binary, had the MIME Type defined as application/x-gemini, and generally looked exactly as one would expect.
+
+The second link provided the missing piece of the puzzle. I'd done all the type association as root, thinking that system wide changes would propagate to the user accounts too. They do, but only if you don't have any conflicting definitions which will override the system defaults.
+
+Also, as an additional step outwith the two links provided, I had to add the new custom Gemini MIME type to the freedesktop.org.xml file in /usr/share/mime/packages.
+
+```
+<mime-type type="application/x-gemini">
+  <comment>Gemini Protocol File</comment>
+  <glob pattern="*.gmi"/>
+</mime-type>
+```
+
+Once I'd removed the conflicting info in my local .desktop file, and updated the file above, I ran the MIME database update and the desktop update commands again.
+
+Now I can open local .gmi files by double-clicking, and they all have a custom icon and their own custom Gemini Protocol MIME type.

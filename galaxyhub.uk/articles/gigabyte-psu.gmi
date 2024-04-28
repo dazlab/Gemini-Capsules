@@ -1,0 +1,10 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# Gigabyte Offers Refunds, Exchanges on Explosive PSUs
+### Putting an end to the flaming fiasco
+
+Gigabyte has already issued a voluntary recall for the brand's GP-P850GM and GP-P750GM power supplies, both of which are known to occasionally catch fire. Now, the company has finally put up a fully functioning RMA portal for affected owners that desire a refund or a product replacement.
+
+Not all GP-P850HM and GP-P750GM power supplies are eligible for the refund or exchange. GP-P850GM units must have a serial number between SN20343G031011 and SN20513G022635, while GP-P750GM units must carry a serial number between SN20243G001301 and SN20453G025430.
+
+Owners who purchased their units from an authorised Gigabyte reseller can opt for a refund or product replacement. Unfortunately, owners who acquired the power supply from a non-authorised seller, such as eBay or Amazon Marketplace, are only eligible for a product replacement.

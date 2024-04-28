@@ -1,0 +1,18 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# Bungie Says Next Year's Destiny 2 Dungeons Won't Be Included in the Season Pass
+### The game's convoluted monetisation model is under the microscope again.
+
+Technically Bungie announced this back in August last year, when it revealed The Witch Queen Expansion. The two dungeons are available as part of the Deluxe Edition version of The Witch Queen, listed as a separate perk from access to the years season passes. Nevertheless, by not outright saying that the dungeons weren't included, many assumed the opposite to be true.
+
+The clarification finally came from Destiny 2 community manager Cozmo23 in a heavily downvoted Reddit comment.
+
+```
+We've seen some debate around the new dungeon content and wanted to clarify how it will be delivered next year. If you get the Digital Deluxe Edition of The Witch Queen you will receive the expansion, all four Seasons next year, and the two Dungeons. If you get the Standard Edition, you can still upgrade to the Deluxe Edition to get the dungeons later.
+```
+
+He then went on to say:
+
+```
+We will also be offering a separate way for you to purchase the Dungeons in the future, but they will not be included in the Season passes.
+```

@@ -1,0 +1,17 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# 12th-Gen Alder Lake Tested with DDR5-6400 Memory
+### Has unexpectedly high latency, may be terrible for gaming
+
+A new Alder Lake benchmark has been posted with a for sale listing, potentially showing a sample from Intel's next-gen CPU series running its new Gear 4 mode. According to @harukaze5719, this latest leak comprised a Core-i5-12600K 10-core CPU running the AIDA64 cache & memory test, with a kit of DDR5 memory operating at 6400MHz. Memory bandwidth was impressive at around 88-90GBps. However, memory latency took a huge hit, running at a sluggish 92.5ns.
+
+According to the listing. the system ran with Gear 4 enabled. In the last decade, Intel hasn't released a single architecture that approached 92.5ns of memory latency. Only AMD's original Zen architecture was capable of such laggy behaviour, and it was known for its memory bottlenecks in that first-generation iteration.
+
+Intel first introduced gear modes with its current Rocket Lake architecture as a way to improve memory support, but at the cost of latency. Rocket Lake offers up two modes: Gear 1 and Gear 2. Gear 1 is the default mode that will run the memory controller and RAM at the same frequency, resulting in very low system latency. Gear 2 on the other hand reduces the memory clock to run at half the speed of the memory controller clock, or a 2:1 ratio. You sacrifice some memory latency, but you reach higher frequencies, and thus higher bandwidth, as a result.
+
+When we tested both gears we noticed Gear 2 took a noticeable toll on system latency, directly impacting gaming performance. We tested a Core-i5-11600K with Gear 1 mode featuring DDR4-2933 RAM, and DDR4-3200 RAM for Gear 2. Despite the faster memory speeds on Gear 2, we found that Gear 1 was consistently faster, with 5 percent better gaming performance. The memory latency results showed a similar trend, with 59.3ns for Gear 2 mode and 52.3 for Gear 1. The latency results would be even more pronounced if both configurations ran at the same RAM frequency.
+
+### Upping the Stakes with Gear 4
+With Gear 4 mode, Intel takes things to a whole new level by cutting the memory controller frequency to just a quarter of the memory frequency. While this does allow the chip to support incredibly fast memory, it should still result in large latency losses.
+
+So if the leaked latency results are true, with Gear 4 nearly doubling the amount of memory latency of Gear 1, then that setting will probably be quite useless for PC gaming and for other consumer-based applications. Generally, system latency is far more important than memory bandwidth, with only a couple of memory-hungry apps actually breaking that rule. So we'll have to see how these changes materialise once Alder Lake launches later this year.

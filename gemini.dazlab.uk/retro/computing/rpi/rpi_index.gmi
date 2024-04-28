@@ -1,0 +1,14 @@
+# Gemini://gemini.dazlab.uk/retro/computing/rpi
+
+### 𝙍𝙖𝙨𝙥𝙗𝙚𝙧𝙧𝙮 𝙋𝙞 𝙂𝙖𝙢𝙞𝙣𝙜 𝙖𝙣𝙙 𝘾𝙤𝙙𝙞𝙣𝙜
+
+Released by Konami in 1985, Gradius - also known as Nemesis outside Japan - brought a new breed of power-up system to arcades.
+
+```
+import pgzrun
+from random import randint
+
+jet = Actor('jet',(400,300))
+bullet = Actor('bullet', center=(850,0))
+
+```

@@ -1,0 +1,17 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# PCIe Gen5 is Coming
+
+### The specifications for PCI Express 5.0 are complete, and AMD and Intel will be supporting the tech, but initially only on data centre hardware.
+
+I'll have more to say about the upcoming switch to DDR5 memory for the next generation Intel and AMD platforms in a future item. For now, I want to talk about something we won't see with AMD's socket AM5, and most likely not on Intel's LGA1700 Alder Lake CPUs either - at least, not on common consumer parts.
+
+Before anyone gets too upset, let's talk about the reason behind the decision. PCIe signalling keeps getting faster, which requires tighter tolerances. Gen3 ran at a paltry 8 GT/s per lane (958MB/s to be precise), yielding a maximum throughput of about 16GB/s for an x16 slot. That's fast enough for a lot of use cases, including gigabit Ethernet and even 10Gbps USB 3.2. The ubiquitous PCIe Gen3 now handles audio, USB ports, networking, and all the x1 to x16 expansion slots. The requirements are low enough that it's possible to route all the motherboard traces to the further slots, and the power requirements are relatively tame.
+
+Those last two items are the real problem with future PCIe standards. PCIe Gen4 effectively doubled the per-lane performance to 16 MT/s, and PCIe Gen5 doubles it again to 32 MT/s. Building the hardware that supports the standard is a different matter. Many laptops still omit Gen4 support entirely due to power requirements, and even those that do support the standard might only provide four lanes for the graphics chip (Tiger Lake-U), sticking with slower and less power-hungry Gen3 for storage and other devices. On the desktop, AMD's X570 chipset can support Gen4 on all PCIe links, but the B550 only supports Gen4 for the GPU and primary M.2 slot, and some boards don't even provide that level of support.
+
+The issue with Gen4 is that it requires better signal quality, which means using better materials and/or thicker traces for the routing, more layers to the motherboard PCB, and potentially the use of retimers. That's why cheaper motherboards often skip Gen4, even if the chipset and CPU technically supports it. And with Gen5, all those requirements become even more stringent.
+
+AMD's socket AM5 won't have Gen5 support for the initial Zen 4 release, while AMD's Epyc Genoa server chips will support Gen5. Intel's Alder Lake plans are less clear; The CPU may support Gen5, but that appears to be mostly for servers and data centres. Sapphire Rapids (Xeons) and Alder Lake (12th Gen client) use the same core logic and requirements for Gen5, plus validation, which means we're unlikely to see support on client solutions in the next year.
+
+It's probably for the best; we have only seen widespread Gen4 support on client products, such as graphics cards and SSDs, in the past year, and most PCs don't need even Gen4 speeds. We're a long way off from saturating Gen4 bandwidth for client workloads, but data centre and supercomputer needs are far ahead of home users.

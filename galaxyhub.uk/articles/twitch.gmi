@@ -1,0 +1,14 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# The Scale of the Twitch Hack Leaves Security Researchers "Aghast"
+### This is as bad as it could possibly be.
+
+Earlier in October, Twitch fell victim to a severe security breach, with hackers swiping the site's source code and revealing everything from how much the top streamers make (a lot) to the existence of a Steam-like game client Twitch has in development, codenamed "Vapor".
+
+Twitch is still in the process of trying to figure out what exactly happened, but while the internal investigation unfolds - and it could very well take a long time, given the scale of the hack - security experts are warning of potentially dire consequences for the livestreaming platform.
+
+> Reading of a data breach that includes the entire source code, including unreleased software, SDK's, financial reports and internal red-teaming tools will send a shudder down the spine of any hardened infosec professional,
+
+ThreatModeler founder and CEO Archie Agarwal told the Threatpost blog.
+
+> This is as bad as it could possibly be. The first question on everyone's mind has to be, 'How on Earth did someone exfiltrate 125GB of the most sensitive data imaginable without tripping a single alarm?' There's going to be some very hard questions asked internally.

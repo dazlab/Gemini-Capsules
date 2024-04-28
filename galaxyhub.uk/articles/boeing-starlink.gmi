@@ -1,0 +1,12 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# Boeing Gets Green-Light for Satellite Internet
+## The company plans a more modest constellation than SpaceX's Starlink
+
+20th May, 2022
+
+### The US government has given Boeing permission to launch a satellite Internet system that will compete with other operators, such as SpaceX's Starlink.
+
+In an order authorisation released late last year, the Federal Communications Commission (FCC) approved Boeing's application to launch the network, which will serve residential and business users in the US. The application, which dates back to 2017, covers 132 low-earth-orbit satellites and another 15 non-geostationary units for a total of 147.
+
+The application doesn't say which satellites Boeing will use, but the company unveiled its 702X satellite in 2019. The satellite is software-defined, meaning operators can program it from the ground to reallocate bandwidth in line with changing communications needs. It has sold 11 of these satellites to SES, another operator that sells internet services to organizations, including airlines, cruise lines, and other network service operators.

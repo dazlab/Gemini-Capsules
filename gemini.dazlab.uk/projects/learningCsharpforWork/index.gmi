@@ -1,0 +1,15 @@
+=> gemini://gemini.dazlab.uk/index.gmi Go Back
+
+# Implementing C# in Real-World Projects
+
+I'm an IT Engineer. My job role is all-encompassing, though, so it's a good job I have an eclectic array of experience with different systems, concepts and programming languages. C#, however, is not something I've needed (or wanted!) to learn. Except now I absolutely need to get to grips with the language because we're using C# to write a background Windows service in order to get data from our current on-prem database system into our Cloud finance system.
+
+Desktop programming on Windows has always struck me as having a lot of overhead, requiring a variety of tools, libraries, runtimes etc. just to get started. I've been more inclined in the past, therefore, to lean towards Web-centric languages, like PHP and JavaScript, and scripting languages like Python. Even then, I don't consider myself a programmer per se. I can bash things together in order to solve a particular problem, but the programming has always been a means to and end, so there's gaps in my knowledge and understanding.
+
+No more.
+
+I'm going to document my progress with C# here in Gemspace by implementing real-world code in a live environment. The best way to learn is to NEED to learn, right? I don't have the think up a project idea in order to test concepts. I know exactly what we need to accomplish, so I guess that's a plus?
+
+## Chapters
+=> gemini://gemini.dazlab.uk/projects/learningCsharpforWork/160522.gmi >>> Setting the Scene
+=> gemini://gemini.dazlab.uk/projects/learningCsharpforWork/180522-cs4w.gmi >>> Getting Data

@@ -1,0 +1,8 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# Western Digital Unveils 20TB HDD
+### Improves hard drives with OptiNAND
+
+Western Digital has introduced the industry's first 20TB hard drive that integrates an iNAND UFS embedded flash drive (EFD) to improve performance, reliability, and capacity. The company's OptiNAND architecture does not use 3D NAND memory for caching, but to store various metadata to enhance key characteristics of hard drives.
+
+Western Digital's 20TB HDDs with OptiNAND technology are based on nine 2.2TB ePMR (energy-assisted perpendicular magnetic recording technology) platters, triple-stage actuator technology for more precise positioning of read/write heads, an iNAND UFS drive of unknown capacity that uses 3D TLC NAND memory, and the company's custom system-on-chip (SoC) that controls the drive as well as communication between the HDD and the EFD.

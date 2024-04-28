@@ -1,0 +1,111 @@
+# Compile and Run an Assembly Language Program for the Atari Computer (15-30 mins)
+4th June, 2022
+
+## Introduction
+I dabbled in assembly as a kid but never became a pro. I taught myself 6502 assembly later in life and became good enough to complete a game called Gene Medic[1] for the 2600. What I learned from this experience is that I really like assembly language. There is something so satisfying about programming right on the metal. In retrospect, I am somewhat surprised by this given what a pain it is to program in assembly for the 2600 with its many hardware limitations (e.g. 128 bytes of RAM and no ANTIC chip!). With a deeper knowledge of assembly for the 6502 in hand, I am ready to get back to coding in assembly for the Atari 8-bit computers.
+
+The goal of this post is to start at the beginning to give readers the experience of writing, compiling, saving, and debugging their first assembly program for the 8-bit computers. Knowing the basic mechanics of working in the assembly coding environment will make learning the language of assembly so much easier. My goal for the coming year is to build on this post and port some of my previous BASIC exercises to assembly. I also hope to go into more depth on how to add custom assembly code to BASIC programs to speed them up. Note that I don’t plan to teach the basics of the assembly language itself. That you will need to learn yourself! Here is a great online resource[2] that helped me with the fundamentals of the language and the 6502 chip. I particularly liked the books by Lance Leventhal[3] and Rodney Zaks[4]. Here[5] is the Wikipedia page on the 6502 for some nice background information.
+
+## Instructions
+The goal of this project is to write, compile, save, and debug your first assembly program. I will use the MAC/65 assembler[6] because this is what I used back in the day and it is faster and has more features than the Atari Assembler Editor[7]. The example I will use here is from the book Atari Roots that can be found online in HTML[8] or PDF[9]. I recommend working through the example below and then going back and reading the first five chapters of Atari Roots to get the necessary background and additional details. Atari Roots is an awesome book that I will likely reference in future posts. It is very well-written and considered a classic among Atari books. Completing this project should give novices the confidence they need to get started with assembly.
+
+I will assume you are doing this first on the Altirra[10] emulator. Everything below should be easy to replicate on all original hardware with a MAC/65 cartridge and floppy drive. Unfortunately, the original cartridges are hard to come by and are usually $100 or more on eBay. I am fortunate enough to still have mine from back in the day. You can get a reproduction cartridge for about $25 from AtariMax[11] or you can make your own[12] for about the same price.
+
+The MAC/65 and BUG/65 manuals can be found at AtariWiki[13] and elsewhere online. They might help with some of the syntax I mention below.
+
+### Step 1:
+Download an ATR file with MAC/65, BUG/65, and DOS. There are multiple available from the MAC/65[14] page on AtariWiki. I used the MAC/65 4.20 with BUG/65 and DOS XL 2.30. DOS XL is nice because it has a command line for launching MAC/65 and BUG/65 from disk.
+
+### Step 2:
+Start Altirra and choose Boot Image from the File menu. Select the MAC/65 ATR. This should boot you into the DOS XL 2.30 menu. Choose Q to exit the menu to the DOS XL command line. You should see a D1: prompt. From there type in MAC65 and hit enter. This will bring up a black MAC/65 4.20 screen with the words EDIT followed by a cursor.
+
+### Step 3:
+Type or copy then paste (from View menu) the following assembly program into Altirra. Note that the number of spaces between the line number and the first command is important. A detailed description of each line of the code can be found in Chapter 4[15] of Atari Roots and in a figure below. Note that I have simplified it a bit here. Basically, this is a simple program to add 2+2 to get 4. Line 50 loads the accumulator of the 6502 with a 2. Line 60 adds 2 to that number. Line 70 stores the result at memory location CB (decimal 203) on page 0 of memory[16]. You can check the program by typing LIST once it is entered.
+
+```
+10    .OPT OBJ
+20    *=$0600
+30    CLD
+40    CLC
+50    LDA #2
+60    ADC #2
+70    STA $CB
+80    RTS
+90    .END
+```
+
+### Step 4:
+Now it is time to compile the assembly source code to object code[17]. Simply type ASM and hit enter. This will produce the following output (shown in black). The source code is listed on the right (columns 3 and 4). On the left are the memory addresses (column 1) and the machine code translation of the assembly commands (column 2). Note that the memory numbers jump from 602 to 604 and from 606 to 608 because we need 603 and 607 to store the number 2. Also note that lines 10 and 90 of the source code are only used by the compiler and aren’t actually stored in memory. Our program occupies memory addresses 0600 to 0608 or nine total bytes. The meanings of each of the assembly commands are included in the second figure (shown in white) that is clipped from Chapter 4 of Atari Roots.
+
+=> gemini://gemini.dazlab.uk/projects/Atari2600-Asm/img/Compiled-Assembly-Code-1024x331.jpg Compiled Assembly Code
+=> gemini://gemini.dazlab.uk/projects/Atari2600-Asm/img/Machine-Code-with-Meanings-1024x233.jpg Machine Code with Meanings
+
+### Step 5:
+We have now written and compiled a simple program using MAC/65. The next step is to save and load the assembly source code and the compiled object code to and from a floppy disk. Be sure and save your program to disk before moving on to Step 6 or it will be lost when you are finished. Not a big deal for this small program but could be trouble if you type in many lines of code.
+
+To save the source code to disk we use:
+
+```
+LIST #D:ADD.SRC
+```
+
+To load source code from disk we use:
+
+```
+ENTER #D:ADD.SRC
+```
+
+To save the object code to disk we use:
+
+```
+BSAVE #D:ADD.OBJ<0600,0608
+```
+
+The last pieces after .OBJ are the starting and ending memory addresses.
+
+To load object code from disk we use:
+
+```
+BLOAD #D:ADD.OBJ
+```
+
+###Step 6:
+We have now written, compiled, and saved our simple 2+2 addition code in Steps 1-5. The next step is to use the built-in debugger called BUG65 (covered in Chapter 5[18] of Atari Roots) to check the compiled code. Type DOS and hit enter. This will take you to the DOS XL command prompt. As a side note, you can get back to the DOS XL menu by typing ‘menu’. From the DOS XL command line prompt type BUG65 and hit enter. This will launch the debugger (BUG65 2.0) and should give you a grey window with a yellow border.
+
+First, type:
+
+```
+G 0600 @0608
+```
+
+and hit enter (G as in GOTO address). This will execute the code located in page 6 memory addresses 0600 to 0608 and then print the contents of each register on the 6502 at the final step of the program. You can see that the accumulator (A) has the number 4 as a result of our LDA #2 and ADC #2 operations. The X and Y registers are empty because we didn’t use them (for fun you could add a line in the program like LDX #1 and see what happens to the X register). The others are explained in Chapter 3[19] of Atari Roots.
+
+Second, type in DCB and hit enter. The D command is similar to PEEK in BASIC and let’s use peek into a memory location. Here, we peek into $CB where we put our 2+2 result. A shown in the last line of the figure below, we see a 4 in memory location CB.
+
+=> gemini://gemini.dazlab.uk/projects/Atari2600-Asm/img/BUG65-1024x343.jpg BUG65 Output
+
+To quit BUG65 and head back to DOS type Q and hit enter. Note that this is like rebooting and your program will be lost. Be sure and save it back in Step 5!
+
+### Step 7:
+What about running the program? Running assembly language programs is a bit different than what some might be used to in BASIC where there is an interpreter and you simply type RUN. Here, the machine code is present in memory and you have to point the Atari to that memory location and tell it to execute that code. It will continue through memory until it reaches a standalone RTS command (not tied to a branch). We did this in Step 6 above with BUG65. Another way to run a program is to load the object code into memory and then execute it from DOS using the Go To Address option (G in DOS XL menu). With the program above you would specify address 0600. Of course, running this simple 2+2 program doesn’t do anything other than stick the number 4 in memory. You would need to add a graphics mode and some print statements to make this more interesting to run. For now, use the G command in BUG65 to convince yourself the code is indeed executing and producing a result. Chapter 5 of Atari Roots goes over this and some other options in more detail. This all takes some getting used to if you are coming from BASIC and doing it for the first time!
+
+### Article Links
+=> http://genemedic.org/ [1] Gene Medic
+=> http://6502.org/tutorials/ [2] 6502.org
+=> https://archive.org/details/6502-assembly-language-programming [3] Lance Leventhal
+=> https://archive.org/details/Programming_the_6502_OCR [4] Rodney Zaks
+=> https://en.wikipedia.org/wiki/MOS_Technology_6502 [5] MOS Technologies Wikipedia
+=> https://en.wikipedia.org/wiki/MAC/65 [6] MAC/65 Assembler
+=> https://en.wikipedia.org/wiki/Atari_Assembler_Editor [7] Atari Assembler Editor
+=> https://www.atariarchives.org/roots/ [8] Atari Roots HTML Document
+=> https://archive.org/details/Atari_Roots_A_Guide_to_Atari_Assembly_Language [9] Atari Roots PDF Document
+=> https://atariprojects.org/2018/08/11/install-the-altirra-emulator-10-15-mins/ [10] Altirra Emulator
+=> https://atariprojects.org/2018/08/11/install-the-altirra-emulator-10-15-mins/ [11] AtariMax Cartridge Link
+=> https://atariprojects.org/2020/08/02/make-an-atari-8-bit-computer-cartridge-1-2-hours/ [12] Make an Atari Cartridge
+=> https://atariwiki.org/wiki/Wiki.jsp?page=Mac65 [13] MAC/65 and BUG/65 Manuals
+=> https://atariwiki.org/wiki/Wiki.jsp?page=Mac65 [14] MAC/65 ATR Page
+=> https://www.atariarchives.org/roots/chapter_4.php [15] Chapter 4 of Atari Roots
+=> https://www.atariarchives.org/mapping/memorymap.php [16] Page Zero Memory
+=> https://en.wikipedia.org/wiki/Object_code [17] Object Code
+=> https://www.atariarchives.org/roots/chapter_5.php [18] Chapter 5 of Atari Roots
+=> https://www.atariarchives.org/roots/chapter_3.php [19] Chapter 3 of Atari Roots

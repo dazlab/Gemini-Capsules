@@ -1,0 +1,36 @@
+```
+╭━━━┳━━━┳╮╱╱╭━━━┳━╮╭━┳╮╱╱╭╮╭╮╱╭┳╮╱╭┳━━╮
+┃╭━╮┃╭━╮┃┃╱╱┃╭━╮┣╮╰╯╭┫╰╮╭╯┃┃┃╱┃┃┃╱┃┃╭╮┃
+┃┃╱╰┫┃╱┃┃┃╱╱┃┃╱┃┃╰╮╭╯╰╮╰╯╭╯┃╰━╯┃┃╱┃┃╰╯╰╮
+┃┃╭━┫╰━╯┃┃╱╭┫╰━╯┃╭╯╰╮╱╰╮╭╯╱┃╭━╮┃┃╱┃┃╭━╮┃
+┃╰┻━┃╭━╮┃╰━╯┃╭━╮┣╯╭╮╰╮╱┃┃╱╱┃┃╱┃┃╰━╯┃╰━╯┃
+╰━━━┻╯╱╰┻━━━┻╯╱╰┻━╯╰━╯╱╰╯╱╱╰╯╱╰┻━━━┻━━━╯
+```
+
+=> gemini://galaxyhub.uk/index.gmi Go Home
+
+# Latest GalaxyHub News
+
+### 09-01-2022
+Sorry Guys, I've been away from Gemspace for quite a bit of time. I've been recovering from COVID-19. I'm still experiencing numerous symptoms, due to so-called "long COVID", and it's not been much fun. Hoping to start posting again soon, as well as introducing a few more sections.
+
+In the meantime, let's all have a great 2022!
+
+All the Best,
+ed
+
+### 31-10-2021
+Following feedback by some lovely Geminauts over at Geddit [1], I'm making a few modifications / improvements.
+
+* Implementing an Atom/RSS feed for GalaxyHub, enabling Geminauts who subscribe to receive updates when new articles and news items are launched. Hopefully have this up within the next day or two.
+
+* Made some cosmetic modifications to the Home capsule page in order to provide a consistent experience across all Gemini clients, as well as to maintain compliance with the specification itself.
+
+Please continue to provide feedback. In lieu of any CGI scriting to enable comments directly, you can use Geddit [1] and search for the GalaxyHub thread, or alternatively use the email address on the main page.
+
+For anyone who has tried reaching out via email in the last week or so, I apologise as there have been some issues with the mail server and I have been unable to respond, but will do so as soon as practicable.
+
+All the Best,
+ed
+
+=> gemini://geddit.glv.one/ Geddit Capsule Home [1]

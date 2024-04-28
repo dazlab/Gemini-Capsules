@@ -1,0 +1,23 @@
+```index
+ ██████╗ ███████╗███╗   ███╗██╗      ██████╗  ██████╗
+██╔════╝ ██╔════╝████╗ ████║██║     ██╔═══██╗██╔════╝
+██║  ███╗█████╗  ██╔████╔██║██║     ██║   ██║██║  ███╗
+██║   ██║██╔══╝  ██║╚██╔╝██║██║     ██║   ██║██║   ██║
+╚██████╔╝███████╗██║ ╚═╝ ██║███████╗╚██████╔╝╚██████╔╝
+ ╚═════╝ ╚══════╝╚═╝     ╚═╝╚══════╝ ╚═════╝  ╚═════╝
+```
+
+=> gemini://gemini.dazlab.uk Go Back
+
+### 2022
+=> gemini://gemini.dazlab.uk/2022/Oct/30102022.gmi 2022-10-30 : A Few Updates
+=> gemini://gemini.dazlab.uk/2022/July/13072022.gmi 2022-07-13  :  Fight the Darkness
+=> gemini://gemini.dazlab.uk/2022/May/180522.gmi 2022-05-18  :  The Dreams We Had as Children
+=> gemini://gemini.dazlab.uk/2022/May/170522.gmi 2022-05-17  :  Summer Affective Disorder
+=> gemini://gemini.dazlab.uk/2022/May/150522.gmi 2022-05-15  :  I'm Back
+
+### 2021
+=> gemini://gemini.dazlab.uk/2021/Oct/31-10.gmi 2021-10-31  : Custom Gemini MIME Types
+=> gemini://gemini.dazlab.uk/2021/Oct/25-10.gmi 2021-10-25  :  In Defence of Ubuntu
+=> gemini://gemini.dazlab.uk/2021/Oct/22-10.gmi 2021-10-22  : Atom - The Ultimate Editor
+=> gemini://gemini.dazlab.uk/2021/Oct/20-10.gmi 2021-10-20  : Gemini:// My Thoughts

@@ -1,0 +1,20 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# Remakes are great, but keep the originals, please
+### A spit-and-polish can make an old game sing for newer players, but they shouldn't replace history.
+
+The first three 3D installments in the Grand Theft Auto series got shiny new re-releases in November of last year, improving everything from resolution and texture detail, through to how the guns feel. Anticipation was high in the lead up to their release, because it's no secret that these PS2-era games are pretty hard for a modern player to get a handle on: the combat emphatically belongs in the early 2000s, as does the lack of mid-mission autosaves.
+
+But rarely did a new game release in 2021 without some form of controversy, and why should GTA be an exception? It turned out that the ports were in pretty bad shape at launch. Aside from the usual moderate performance issues, such as stuttering, it emerged that port studio Grove Street Games had apparently used some form of machine-learning tool to upgrade the game's textures, resulting in some pretty amusing shop sign snafus, and some completely undermined visual gags.
+
+There's no doubt that Rockstar will have the performance issues fixed, but the poor state of the trilogy's launch did have one positive side effect: upon announcing the trilogy in September, Rockstar advised that the original versions of these games - emulated versions available on Steam, as well as the Xbox, PlayStation and Nintendo digital stores - would be removed from sale permanently. After the outcry concerning the remakes' condition, Rockstar backflipped and the original versions are now back on sale.
+
+This is a win for all who care about video games as a medium. These games were hugely formative and are about as museum-worthy as they come: they basically set the blueprint for a genre - the open world action game - that still dominates the gaming landscape 20 years later. For enthusiasts to only have access to a version which, while ostensibly better, lacks the whole picture of what these games offered (and lacked) in their contemporary setting, is a huge blind spot.
+
+Game preservation is important, and not just for historians and archivists: the average person who plays games for pleasure is just as likely to be curious about the history of an important series as, say, a film enthusiast might want to watch Hithcock's Psycho over Van Sant's. Which is why it's important that the 1997 version of Final Fantasy VII remains available alongside the 2019 (partial) remake. It's why the old versions of the 8-bit Dragon Quest games need to exist in the emulation-sphere in concert with the (actually quite terrible) smartphone remakes. Those are just two examples.
+
+Of course, Rockstar removing these older games from sale doesn't erase them from the face of the Earth: physical editions exist, and those with a digital version can still access them. But their removal presupposes that games enthusiasts are mindless consumers who only care about the newest and shiniest thing; a lot of people are like that, but not all.
+
+Possibly more alarming is the fate of multiplayer-only games. Respawn announced its 2014 shooter Titanfall - a game that indirectly spawned Apex Legends - was to be removed from sale in November 2021, and while servers will remain live for a while, they probably won't last. Meanwhile, what will happen to the swathes of online-only games like The Crew and Hitman 3? Grassroots online groups can revive discontinued online worlds like PlayStation Home, but what of the games that aren't as big, or important, or beloved?
+
+Enthusiasts have their work cut out for them, if preserving 21st century games is a job they undertake.

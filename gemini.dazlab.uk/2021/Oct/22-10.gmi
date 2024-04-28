@@ -1,0 +1,18 @@
+=> gemini://gemini.dazlab.uk/index.gmi Go Back
+
+# Atom - The Ultimate Editor
+### 22nd October, 2021
+
+Github's Atom code editor doesn't get enough love. It often appears further down the list of recommended code editors, usually behind VSCode and Sublime Text, neither of which I feel are particularly deserving of those positions. They're not bad at all, but Atom has so much more to offer.
+
+* Built-In Git / Github integration
+* Stylesheet-based Customisation
+* Vast Repository of Extensible Packages
+
+My partiular favourite extension is the FTP Edit I'm using right now to update my Gemlog. Gone are the days of jumping in and out of FileZilla. I can edit my Capsule, make changes and save direct to the server - without leaving Atom. Consequently, I live in Atom.
+
+But Daz, I hear you say! Those features aren't unique to Atom. And right you are. It's just that Atom implements them better. I've tried all manner of editors, VSCode and Sublime included, and I've always found my way back to Atom.
+
+It's the complete package.
+
+=> https://atom.io Shameless Plug

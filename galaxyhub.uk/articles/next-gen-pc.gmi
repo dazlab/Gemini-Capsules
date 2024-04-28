@@ -1,0 +1,167 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+## The Next-Gen PC
+### PC tech standards are constantly changing. What can we expect from the next generation of computer hardware?
+
+When you actually examine how industry standards for connectivity and hardware performance evolve over time, it's surprising how quickly the new normal gets adopted by the masses. USB-A was the dominant form of physical port connectivity across the hardware spectrum for years, but mobile devices ran through a flurry of alternate compact ports before settling on the USB-C connector we know and love.
+
+It's strange to think that in a few short years, the top-tier hardware we marvel at today will be heavily outdated, even obsolete. The industry moves fast; when a new gold standard for any aspect of our systems arrives, it doesn't take long before every new product conforms to the norm. PCIe 4.0 SSDs were hailed as a revolution when they first arrived, exclusive to AMD systems, but Intel has since climbed aboard, and heavy hitters such as Samsung have pushed the medium to further heights than the first wave of Gen4 drives could ever reach.
+
+### But What Comes Next?
+
+There are plenty of upgrades already in the works, from the next generation of PCIe technology to the new DDR5 desktop memory. We're going to analyse where the industry is going next, how soon it's going to get you there, and what you can do to make yourself and your hardware as ready as possible.
+
+### PCIe
+
+We'll start with PCIe, or Peripheral Component Interconnect Express. A bus standard that is commonly found as an interface on motherboards, PCIe connectors support a wide variety of components, such as GPUs, SSDs, and Ethernet adapters. The electrical interface provided by the PCIe specification supports other existing standards within the PC hardware industry, including SATA and M.2.
+
+PCIe specifications are developed by the PCI Special Interest Group, a consortium of over 900 tech companies with a vested interest in the technology. The standard is currently in its fourth iteration, although it replaced the original PCI bus standard, which went through five full revisions itself (from PCI 1.0 through to PCI-X 2.0). These standards are constantly evolving; PCIe may birth an entirely new bus format in the not-too-distant future.
+
+For now, we know what to expect from upcoming versions. The specifications for PCIe 5.0 were finalised and released by the PCI-SIG in May 2019, after two years of internal research and development. Preliminary specs for PCIe 6.0 were announced just three weeks later, but this is still in the early testing phase. PCIe 5.0, on the other hand, has already entered production [1].
+
+In late 2019, Chinese company Jiangsu Huacun Electronic Technology revealed the world's first PCIe 5.0 controller, named the HC9001. Chip manufacturer Rambus announced the completion of a PCIe 5.0 interface in 2020, with others following suit. These technologies are not yet available for use in conventional computer systems, but they aren't far off. AMD stated last year that it expects to have PCIe 5.0 compatibility baked into its 5nm Zen 4 processor architecture, with compatible drives arriving for consumers in 2022.
+
+PCIe 5.0 tech is already poised to take over a number of enterprise sectors, from cloud computing to supercomputers. NAND flash controller producer Silicon Motion isn't quite as optimistic as AMD, saying it expects enterprise-grade SSDs to be available in 2022, with consumer models a little further down the line, which are capable of up to 14GB/s read and 9GB/s write.
+
+### Speed Demons
+What does PCIe 5.0 actually mean, though? The main benefit here is staggeringly fast speeds; 5.0 offers effectively double the data transfer rate as 4.0, as 4.0 did for 3.0. The link speed is 32 GT/s (that's 'giga-transfers per second') compared to PCIe 4.0's 16 GT/s, which in practical terms translates to an aggregate bandwidth of a whopping 128GB/s on a standard sixteen-lane interface.
+
+These 'x16' interfaces are found on most modern motherboards for GPUs ad other expansion cards, and real-world speeds are likely to be around 126GB/s to account for the overhead penalty in data encoding - this is around 2 percent, as PCIe interfaces from 3.0 onwards use a 128b/130b encoding scheme. The theoretical speeds are even higher, but that would require a 32-lane interface, which are extremely rare and unlikely to become common on consumer products for quite some time.
+
+126GB/s is an incredibly fast transfer rate for an interface that could power desktop graphics cards and drives. PCIe 5.0 M.S SSDs are likely to become available in the next few years, but will require a processor and motherboard with Gen5 compatibility to perform at its peak. M.2 interfaces use a four-lane connection, which will see the potential maximum transfer speed for SSDs rise from 8GB/s to 16GB/s when Gen5 drives arrive.
+
+### What Do You Want?
+If you're thinking 'that's much faster than I need!', you're probably right! PCIe 5.0 drives will be monstrously fast, but Gen4 SSDs are already seriously nippy, you're looking at read speeds of up to 7GB/s and write speeds of up to 5.5GB/s. That's fast enough to make regular file transfers and load times in games trivially quick.
+
+Upgrading to a Gen5 drive that offers 16GB/s read speeds - or more likely something in the realm of 14GB/s for the first wave of PCIe 5.0 SSDs, as manufacturers perfect the controller hardware - might make a difference, but you won't notice it unless you routinely move massive files around on your PC. Games might load half a second faster, but that's not really a big deal if they already only take two seconds to load.
+
+Power draw of PCIe 5.0 drives is expected to be a lot higher than their Gen4 counterparts, although this is based on current non-consumer products being tested and the thermal performance will likely be refined before we can get our hands on them. Gen5 SSDs are also expected to have superior lifespans compared with previous generations, but again, most SSDs will already last until they're decidedly outdated.
+
+We'd advise holding off on upgrading to PCIe 5.0 unless you regularly need to shift large amounts of data; even then, when it comes to uploading to a network, you're going to be bottlenecked by your Internet speed long before your drive starts to struggle. Maybe in several years, games will be big enough to need PCIe 5.0 drives for speedy load times, but that's likely a long way off yet.
+
+=> gemini://galaxyhub.uk/articles/pcie5.gmi Here's Our Recent PCIe Gen5 Write Up News Story
+
+### Doubled Data
+Moving on from PCIe, let's take a trip down memory lane, literally; we're looking at RAM, specifically DDR5. That's DDR5 SDRAM, the kind used for actual system memory, rather than the memory found in graphics cards (graphical memory is currently it its sixth iteration, GDDR6).
+
+> A quick note on graphical memory; while GDDR7 or a similar upgrade is bound to arrive eventually, the limits of GDDR6 are still being pushed and we shouldn't expect to see it announced anytime soon.
+
+DDR5 SDRAM - the mouthful that is Double Data Rate Five Synchronous Dynamic Random-Access Memory - is the next generation of desktop RAM. The prevailing industry expectation is that most systems using DDR4 memory will migrate to fifth-generation SDRAM in the future, but how long will that take?
+
+DDR5 memory has been in production for a while now, with members of JEDEC (the Joint Electron Device Engineering Council, a similar conglomerate to the PCI-SIG) announcing work on DDR5 chips as far back as 2017. The standard was delayed from its original planned release in 2018, and was officially released in late 2020 with the launch of the world's first proper DDR5 RAM by Korean semiconductor giant SK-Hynix.
+
+Much like PCIe 5.0 products, DDR5 isn't commercially available yet for hardware tinkerers. The same goes for LPDDR5, the low power memory variant designed for use in laptops, tablets, and smartphones. Although Team Group has released a kit of consumer DDR5 RAM, it's prohibitively expensive and effectively unusable until processor and motherboard manufacturers release compatible boards, hopefully before the end of 2021.
+
+### Powered Up
+So, what can we hope to see from DDR5 memory? For starters, the memory speed is almost comically fast. The base frequency of DDR5 RAM will be 4,800MHz (that's technically 2,400MT/s, thanks to the doubled data rate), with potential for a ceiling of 8,400MHz or higher, although initial products are expected to launch with a cap of 6,400MHz until upgrades to the specification can be implemented as they were in previous generations.
+
+With comparable latency to DDR3 and DDR4, that puts base memory speed of DDR5 RAM above the vast majority of memory kits currently available for consumers. It is expected that high-end DDR5 kits will run at speeds exceeding even the most aggressively overclocked DDR4 memory. Chinese memory manufacturer Netac teased the development of a 10,000MHz kit this year [2].
+
+=> https://hothardware.com/news/netac-10000mhz-ddr5-dram-gaming-pcs Netac Eyes Development of 10,000MHz DDR5 DRAM For Gaming PCs
+
+Memory capacity per DIMM slot is also being boosted, doubling from 64GB to 128GB. If we see consumer motherboards with the capacity for eight DIMMs as we have for the DDR4 generation - there are rare, with four or two slots being much more common, but motherboards such as the Asus ROG Rampage VI Extreme Encore offer eight memory slots for extreme performance - there is potential for monstrous 1,024GB system builds. Imagine how many Chrome tabs we could open with that kind of power...
+
+Is that necessary? Heck no. But the implications are clear; 32GB and 64GB sticks will become more common, raising the bar in particular for compact systems. Being able to easily slap 128GB of memory in an ITX system with only two DIMMs is a huge potential boon, although we've yet to see the software and gaming industries step up to demand such huge amounts of RAM for common computing processes.
+
+One of the most interesting benefits offered by DDR5 is the lower operating voltage of 1.1V, compared with 1.2V in the current DDR4 memory. This results in lower power consumption per DIMM, despite the improved performance, which will certainly be a boon for watt-hungry machines.
+
+DDR5 sticks can potentially have voltage regulators built directly into each unit, further boosting data speeds by rapidly adjusting the voltage supplied to the RAM chip on the fly, but this is liable to make manufacturing costs skyrocket. Don't expect to see this feature in standard consumer chips, although we won't be too surprised if kits aimed at overclocking enthusiasts surface.
+
+### Tech Tricks
+The DDR5 standard has several clever inclusions that promise to boost performance compared with previous generations. One of these is a nifty technique called Decision Feedback Equalisation. In simple terms, DFE allows for performance improvements by stabilising data transfers within the DIMM itself and between the memory and CPU.
+
+Looking at DFE in greater detail reveals exactly how it benefits memory performance. With standard SDRAM, signals are sent across the motherboard PCB between the CPU and RAM, with a degree of dielectric loss occurring in the process. This introduces minuscule imperfections in the signals received by the memory, referred to as intermodulation distortion.
+
+DFE circuitry in DDR5 memory introduces a compensating filter that analyses the distortion and produces a 'counter-signal' that cancels the frequency variation, resulting in a more ideal channel response. Less distortion allows for higher memory I/O speeds, which means greater bandwidth. DFE isn't the only equalisation technique used in modern RAM, however, it does represent a significant step forward in performance for DDR5; new memory using DFE should be able to achieve a bandwidth of up to 51.2GB/s per module.
+
+Another pair of features for correcting potential lapses in memory performance are ECC and ECS: that's Error-Correcting Code and Error Check and Scrub, respectively. These are essentially baked-in memory chip functions that search for errors as they occur and rectify them before sending the data to the processor. Some specialised DDR4 kits have previously included ECC tech, but both ECC and ECS are part of the DDR5 memory standard.
+
+ECC-enabled DDR5 RAM will contain separate data lines for the sending of error data to to CPU, allowing additional issues to be corrected by the processor in the nanoseconds of data transit time between the components. This means that DDR5 systems will benefit from improved overall memory stability compared to their DDR4 predecessors.
+
+### Leaks Aplenty
+What hardware will you need to run DDR5 memory? Well, you won't have any hardware that can run this new memory yet; this isn't a case of simple BIOS firmware updates to accommodate a next-gen CPU. Thanks to a bevy of roadmap leaks (and eventual official announcements), though, we do have a rogh idea of when to expect the arrival of DDR5-compatible hardware.
+
+Intel's 12th-generation Alder Lake CPUs will use a hybrid architecture under the new 'Intel 7' process and are expected to launch later this year. The upcoming Sapphire Rapids CPUs (the 7nm Xeon equivalent of Alder Lake, for large-scale business use in servers and supercomputers) will be released later, projected for early 2022. Both will support DDR5 memory, meaning that Intel is almost certainly going to beat AMD to the punch.
+
+Team Red might have a flashy new 5nm architecture planned for Zen 4, but those chips (presumably presented to consumers as sixth-generation Ryzen) aren't expected to release until 2022. Less information is currently available on Zen 4, but it will undoubtedly support DDR5. Some more tantalising insider info points to Zen 3+ APUs coming sooner with DDR5 compatibility, but all this should be taken with a pinch of salt, as it hasn't been officially confirmed by AMD at the time of writing.
+
+Naturally, motherboard manufacturers will have to keep up with the pace. Current-generation motherboards for bot Intel and AMD processors - that's Z590 and X570 respectively - don't support DDR5 natively, and news on backward compatibility is patchy. We can probably expect Z690 and X670 chipsets to arrive in late 2021/early 2022, coinciding with the release of next-gen CPUs. There's not necessarily any guarantee they'll be called that, of course, but it's easy enough to extrapolate naming conventions.
+
+### Port Problems
+
+Speaking of naming conventions, we'd like to have some stern words with the bosses of the USB Implementers Forum. After generations of USB 2.0, USB 3.0, USB 3.2, and so on, we've now got a hot new USB standard incoming. Any sane individual might naturally assume this would be called USB 4.0, or perhaps USB 3.3, depending on how much of a technological jump forward the new specification represents.
+
+Nay, says the USBIF. Chiefs of tech titans such as Microsoft, Apple, Intel, and others have convened, and in their infinite (read: extremely finite) wisdom, have deigned to name this new standard 'USB4'. No .0 here, not even a spare dash after the B/ Nonsense, we say, but what can you do?
+
+The blueprints for the USB4 specification were released over two and a half years ago, in February 2019, and USB4 products are already in circulation, albeit in a somewhat limited capacity. Some 11th-gen Intel products have USB4, and USB4-compatible docks are available to purchase. Branding has been broken up into 'USB4 20Gbps' and 'USB4 40Gbps', which are actually USB4 Gen 2x2 and Gen 3x2.
+
+40Gbps throughput means that USB standards have properly caught up with the plucky young upstart that is Thunderbolt, with both Thunderbolt 3 and 4 sharing that same Speed. In fact, USB4 represents the closest we've come so far in merging the two interfaces; Thunderbolt 4 mandates the use of USB4 and its full feature set, so any Thunderbolt 4 product will have full USB4 support (although annoyingly the reverse is not true, as we witnessed with USB-C 3.2 and Thunderbolt 3). Intel's somewhat unexpected rollback of royalty fees for using Thunderbolt was a key factor here, opening up the format for other manufacturers.
+
+### Goodnight, Sweet Prince
+Yes, you read that right: USB4 is switching over to the same physical connection standards as Thunderbolt 3 and 4, marking the death of the humble USB-A port. It's USB-C from here on; no longer will we struggle with inserting flash drives the wrong way up. No longer will we suffer with non-uniform display cables! Cast off your chains! The revolution is here!
+
+Yes, this will probably lead to some confusion unless the USB and Thunderbolt interface are eventually unified; a USB-C port on a laptop right now could be USB4, or Thunderbolt 4, or Thunderbolt 3, or USB 3.2... checking specification sheets for products has always been a must, but this makes it more necessary than ever.
+
+The maximum speed of 40Gbps won't be available on all USB4 products; budget laptops and their ilk are likely to feature the slower 20Gbpsports. This has to do with the available USB lanes for data transfers. USB4 specifies eight lanes in a standard connection. four for input and four for output. Each lane offers 10Gbps of potential data transfer speed, adding up to a 40Gbps maximum in either direction.
+
+The interesting thing about USB4 is that as a bus specification, it doesn't just provide a simple mechanism for data transfer; much like Thunderbolt, it can be used to provide tunnelling  for different protocols, most significantly DisplayPort 1.4 and 2.0. USB4 connectors will be a viable option for display daisy-chaining, with a theoretical maximum transfer performance of 8K at 60fps with HDR10 colour enabled.
+
+USB4 cables can achieve this thanks to mono-directional connections, which means that data is only sent in one direction (in this case, from the output system to the monitor), enabling all eight data lanes to be used simultaneously, achieving a transfer speed of 80Gbps, double the USB4 standard. This is only possible with select monitors that are capable of supporting alt-mode DisplayPort 2.0 via USB-C, though.
+
+USB-C ports on new, USB4-compatible devices will have full backwards compatibility (albeit at a slower speed afforded by whatever USB-C connector you use). Consumer motherboards for custom PC builds that support USB4 and Thunderbolt 4 are only just starting to seep through the cracks, with Asus's ProArt B550 Creator [3] board being a prime example.
+
+Even though USB4 adoption is still in the early stages, Asus was particularly keen to get ahead of the curve, since USB4 and Thunderbolt 4 are likely to become the prevailing industry standards within a few years.
+
+Power delivery is obviously also a feature here, as seen in previous Thunderbolt interfaces. Using the USB PD format ('PD' stands for 'power delivery'), a USB4 connection can sustain up to 5A of current or 48V of voltage, though not simultaneously. In real-world terms, USB PD is limited to delivering 100W of power at a time, with varying configurations of current and voltage. Minimum values of 1.5A and 5V are applied.
+
+=> https://www.asus.com/Motherboards-Components/Motherboards/ProArt/ProArt-B550-CREATOR/ Asus ProArt B550 Creator Motherboard
+
+### Getting Set
+
+USB4 is a far more prominent change to the way we build our PCs than the likes of PCIe 5.0 and DDR5. While the last two are more about ensuring your motherboard and processor are up to date, a fully USB4-supported custom build will require an appropriate case I/O as well as matching internal components.
+
+The eventual widespread implementation of USB4 and Thunderbolt 4 will also likely have an knock-on effect on the design of PC peripherals. Despite the format's current dominance, USB-A connectors are liable to die out eventually, mandating either a system upgrade for better USB-C connectivity or the cumbersome use of numerous adapters. Expect products such as headsets, keyboards, and even monitors, to slowly shift to USB-C as a primary wired connection format in the coming years.
+
+Given that pre-built USB4 products are already on the market, it's a safe bet that we'll see support for the new standard in PC components fairly soon. If you're a fan of wireless setups (we love a good Bluetooth mouse), you might not need to worry, but if your I/Os see heavy use we'd advice you to wait until compatible parts are available before doing any major system upgrades.
+
+### Blue Teeth
+
+DDR5, PCIe 5.0. and USB4 might be the most prominent new standards we can expect to see rising to prominence in the near future, but that's not all there is to look forward to. New connectivity standards are always in development; Bluetooth is due an update, with the most recent new format (Bluetooth 5.2) released back in 2019 - and that was merely a refinement of the five-year-old Bluetooth 5 standard.
+
+Will we see a Bluetooth 6 next, or merely Bluetooth 5.3? Previous trends suggest it will be the former; every preceding generation of Bluetooth technology has stopped short of a .3 iteration, with the Bluetooth Special Interest Group typically pushing ahead with a new standard after one of two updates.
+
+What could the sixth iteration of Bluetooth tech look like, then? We're firmly is speculative territory here, but reduced battery consumption is almost certainly going to be a factor. Bluetooth 5.2 is sometimes referred to as Bluetooth LE, which stands for Low Energy; we've all been there, realising we left our Bluetooth on and finding our phone battery is dead. 5.2 introduced a number of power-saving features, which are bound to be improved upon in future versions of the technology.
+
+### Heads up, DisplayPort
+
+DisplayPort 2.0 is another standard we can expect to see more of soon, with the alt-mode bundled in some cases with USB4 as we mentioned earlier. The standard was finalised in 2019 and represents the first major update to the DP connection standard since March 2016 (the release of DP 1.4).
+
+Normal DisplayPort connectors will remain prevalent for a while, so it's unlikely you'll need to urgently make any changes to your machines to accommodate the new standard. DP 2.0 offers greater flexibility than any previous version, with support for resolutions above 8K and improved HDR options. Standard DP 2.0 ports will be able to support a blinding 16K resolution at 60Hz, or up to three 8K displays at the same refresh rate.
+
+Is this of interest to the average consumer? Right now, absolutely not. 16K displays are currently huge (far too big for a desktop setup) and only available to corporations via special orders. Sony offers an 18ft tall model, but it will set you back a few million bucks. Even the prospect of multiple 8K screens feels outlandish to us; it's not a standard that is representative of the common man's hardware arrangement, so DP 2.0 is reaching for the stars and leaving most of us behind.
+
+Still, as display technology has been refined we've witnessed a steady shift upwards to higher resolutions as the default option. 1080p is currently the most popular resolution for PC gamers, but it hasn't held that crown for long; plenty of people still play at 720p, while virtually every game has proper support for resolutions up to 4K now. 8K screens could well be the norm within ten years.
+
+We'll need the current GPU crises to settle down before the public can start to reap the benefits of higher resolutions.
+
+### High Definition
+
+HDMI acts as a sister format of sorts to DisplayPort, now found more commonly on TVs than computer monitors. Unlike DisplayPort, there isn't a new standard of HDMI incoming; the most recent version is HDMI 3.2, oficially released in 2017. The space between HDMI versions is typically greater than DP iterations, and HDMI 2.1 is already capable of supporting up to 10K resolution at 120Hz.
+
+It's entirely possible that homogenisation of display connectors could occur over the next few decades, though only if the wider industry is willing to play nicely. The USB-C connector is already commonplace and could represent a shared ground form data transfers and display support, although this would ultimately mean the eradication of HDMI as a display interface standard.
+
+What other evolving standards might we see in the future? The only key ground we haven't covered here is Internet connectivity; Ethernet and Wi-Fi.
+
+### Wireless Wonderland?
+
+The IEEE 802 family of standards (maintained by the Institute of Electronics Engineers) has remained largely unchanged for years, presiding over LAN and PAN connections, amongst others. Physical cables for Ethernet connections have been improved over time, but the classic Ethernet port is unlikely to be leaving us soon.
+
+Wi-Fi, on the other hand, is almost guaranteed to continue evolving. Specified as the IEEE 802.11 standard, a subset of IEEE 802, WLAN standaards are diverse in purpose and funtionality. Most 802.11n iterations are used for specific functions beyond traditional Wi-Fi as we might use it in our homes; for example, 802.11ah defines a wireless network running at sub-1GHz bands, ideal for wide-range, low-power uses such as outdoor Wi-Fi for traffic control.
+
+The Wi-Fi we know and love is 802.11ac, or 802.11ax for those with more recent hardware. The 'ax' iteration is more commonly known as  'Wi-Fi 6' and represents the current apex of consumer WLAN options, thanks to better range and superior performance in signel-dense environments.
+
+Anticipating Wi-Fi 7 is a tricky business. Wi-Fi 6E was only announced a few months ago, offering a 6GHz band operation compared to Wi-Fi 6's 2.4GHz and 5GHz options. There are a few different IEEE 802.11 standards currently in development, but the pertinent one is 802.11be. Also referred to as EHT (Extremely High Throughput), this standard will focus primarily on building upon the 802.11ax format with massively superior maximum speeds and imprved signal stability.
+
+Projections put the potential maximum throughput if 802.11be at a seriously nippy 30Gbps, triple that of Wi-Fi 6. The most common expected use is video streaming, which has increased massively in recent years. Using Wi-Fi 7 will demand compatible hardware so be ready to buy a new router and motherboard. However, the IEEE doesn't expect to finalise the standard until 2024 at the earliest, so we'd consider this a low priority right now.
+
+The world of PC hardware and software never stops marching on. We've made some predictions here that might never ring true; for all we know, a new standard could arrive on the scene next week and disrupt the status quo. Will it be a new bus interface? A new type of graphical memory? A port for video output? We couldn't say, but we can't wait to find out what comes next.

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>gemini://galaxyhub.uk/articles/</id>
+  <title>GalaxyHub</title>
+  <updated>2021-11-10T13:07:53.915816+00:00</updated>
+  <link href="gemini://galaxyhub.uk/articles/atom.xml" rel="self"/>
+  <link href="gemini://galaxyhub.uk/articles/" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <subtitle>Tech News for Geminispace</subtitle>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/ai.gmi</id>
+    <title>AI is a Human Rights Problem</title>
+    <updated>2021-11-01T13:59:32.256931+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/ai.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/cme.gmi</id>
+    <title>Event On The Horizon</title>
+    <updated>2021-11-01T13:59:46.548921+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/cme.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/fortnite.gmi</id>
+    <title>Fortnite isn't a game, it's a lecherous advertising platform</title>
+    <updated>2021-11-01T13:59:57.296914+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/fortnite.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/google2fa.gmi</id>
+    <title>Google's 2FA Handling to Change</title>
+    <updated>2021-11-01T14:00:08.792906+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/google2fa.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/hiawatha.gmi</id>
+    <title>The Light-Footed Hiawatha Web Server</title>
+    <updated>2021-11-01T14:00:18.656899+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/hiawatha.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/huq.gmi</id>
+    <title>British Firm Admits Privacy Breach</title>
+    <updated>2021-11-01T14:00:25.496894+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/huq.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/microsoft-passwordless.gmi</id>
+    <title>Microsoft will let you remove your account password</title>
+    <updated>2021-11-01T14:00:37.880886+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/microsoft-passwordless.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/social-media.gmi</id>
+    <title>World's Biggest Social Media Company Does More Anti-Social Things</title>
+    <updated>2021-11-01T14:00:43.176882+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/social-media.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/twitch.gmi</id>
+    <title>The Scale of the Twitch Hack Leaves Security Researchers "Aghast"</title>
+    <updated>2021-11-01T14:00:50.940876+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/twitch.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/chia.gmi</id>
+    <title>Chia Coin Miners Reselling Used SSDs &amp; HDDs as New</title>
+    <updated>2021-11-01T15:22:48.077164+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/chia.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/evga-3090s.gmi</id>
+    <title>EVGA Explains Why its 3090S Were Blowing Up In New World</title>
+    <updated>2021-11-01T15:23:21.729143+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/evga-3090s.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/gigabyte-psu.gmi</id>
+    <title>Gigabyte Offers Refunds, Exchanges on Explosive PSUs</title>
+    <updated>2021-11-01T15:23:50.517125+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/gigabyte-psu.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/western-digital.gmi</id>
+    <title>Western Digital Unveils 20TB HDD</title>
+    <updated>2021-11-01T15:24:09.525112+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/western-digital.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/pcie5.gmi</id>
+    <title>PCIe Gen5 is Coming</title>
+    <updated>2021-11-01T21:02:43.516051+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/pcie5.gmi" rel="alternate"/>
+  </entry>
+  <entry>
+    <id>gemini://galaxyhub.uk/articles/next-gen-pc.gmi</id>
+    <title>The Next-Gen PC</title>
+    <updated>2021-11-10T13:07:53.915816+00:00</updated>
+    <link href="gemini://galaxyhub.uk/articles/next-gen-pc.gmi" rel="alternate"/>
+  </entry>
+</feed>

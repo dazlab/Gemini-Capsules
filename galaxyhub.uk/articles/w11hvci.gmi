@@ -1,0 +1,22 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# Windows 11's HVCI and VBS performance penalty
+### We're stuck between the new UI and improved security, or sticking with the old and trusted (sort of) Windows 10.
+
+If the cosmetic changes weren't enough to make you reconsider upgrading, the TPM requirement and reduced performance might do the trick. Windows 11 comes with VBS - that's Virtualisation Based Security, not Visual Basic Script. It isn't new, having first been introduced to Windows 10 back in October 2019 with the 1903 9D update, but chances are you never actually used VBS with Windows 10. In short, VBS creates a secure area in memory for other security features to use. These include TPM (Trusted Platform Module) and HCVI (HyperVisor-protected Code Integrity).
+
+The problem with these security features is that they reduce overall system performance by roughly five percent - the equivalent of one of Intel's CPU architecture upgrades (with the number of threads and cores static). Gaming is a prime candidate for reduced performance as the security features can add latency to memory operations. While HVCI would normally impact performance more than VBS, processors starting with Intel's 7th Gen Core and AMD's Zen 2 chips also support Mode-Based Execution Control (MBEC), which reduces the impact of HVCI, but is still around 5-7 percent performance loss. The loss may be even greater on older CPUs, with Microsoft recommending at least an 11th Gen CPU if you intend to use VBS. That counts 95 percent of people out.
+
+There are many questions regarding VBS, including how to turn it off. One simple solution that may suffice is to just disable virtualisation support in your system BIOS. There are Registry edits and Windows settings that can be used to disable VBS as well, but some people seem to have trouble getting those to work.
+
+One interesting point is that people who upgrade from Windows 10 to Windows 11 generally won't need to worry about VBS and HVCI, as they're disabled by default. However, if you do a clean install of Windows 11, you'll want to check if they're enabled. Thankfully, that's easily done. Open your System Information app (just type that into the search bar), then look for Virtualisation-based security. If it's off, you're all set - unless of course you want to added security and are willing to suffer the performance loss. If you find that VBS is enabled, turning it off can be a bit trickier, depending on your PC. Open the "Core Isolation" setting in Windows Security, toggle that off and reboot, and check System Information.
+
+If that doesn't work, open Regedit and navigate to:
+
+```
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\DeviceGuard
+```
+
+Open "EnableVirtualizationBasedSecurity" and set that to 0, reboot, and that should take care of things. If you want VBS enabled, then do the opposite.
+
+But given the rather stringent hardware requirements for a proper Windows 11 installation - you need at least TPM 1.2 support, which rules out first-generation Ryzen CPUs and earlier AMD processors, and typically means you need at least a 6th Gen Intel CPU - there will undoubtedly be plenty of people sticking with Windows 10 for a while, including most businesses. In other words, it feels like the "skip every other generation of Windows" mantra remains. Windows 11 may join Windows 8 and Windows Vista in infamy.

@@ -1,0 +1,10 @@
+# Geminispace RFC Index
+
+### 1969
+=> gemini://gemini.dazlab.uk/projects/rfc/0001.gmi RFC 0001 - Host Software
+=> gemini://gemini.dazlab.uk/projects/rfc/0002.gmi RFC 0002 - Host Software
+=> gemini://gemini.dazlab.uk/projects/rfc/0003.gmi RFC 0003 - Documentation Conventions
+=> gemini://gemini.dazlab.uk/projects/rfc/0004.gmi RFC 0004 - Network Timetable
+=> gemini://gemini.dazlab.uk/projects/rfc/0005.gmi RFC 0005 - Decode-Encode Language
+=> gemini://gemini.dazlab.uk/projects/rfc/0006.gmi RFC 0006 - Conversation With Bob Kahn
+=> gemini://gemini.dazlab.uk/projects/rfc/0007.gmi RFC 0007 - Host-Imp Interface

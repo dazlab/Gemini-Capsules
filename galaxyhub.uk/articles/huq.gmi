@@ -1,0 +1,26 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# British Firm Admits Privacy Breach
+### Illegal collection of location data admitted by Huq.
+
+> Behind every great decision is great data; be inspired by where people go, and why they go there.
+
+These are the advertising slogans of British-based data reseller Huq, a leading supplier of "Big Data" analytics to government and private firms. The company, which profits from the (legitimate) sale of location data, admitted on Friday that "Some of its information was collected without seeking the consent of users".
+
+In a statement to the BBC, Huq revealed that in two separate instances its "app partners" had not asked for consent from its users, but added swiftly that the issue had now been rectified. According to the BBC, the firm released a statement revealing it was aware of two "technical breaches" of data privacy requirements.
+
+We reached out to Huq for comment, and received the following response:
+
+> Huq data is used anonymously. Nevertheless, consent is a vital pillar of data collection and must be taken seriously. We strive to ensure consent is explicitly sought by all our app partners. If there is a breach, we always act swiftly.
+
+Huq also confirmed the breach occurred as a result of a permission issue in an app developed by third-party partner Kaibits Software, as well as from an un-named second developer. Huq also cautioned that "it is possible that we, or our partners, may uncover future technical issues, but what's important is how quickly we act and how seriously we take the issue."
+
+While in this particular instance Huq seems to have been quick to reveal the breach, questions will inevitably be raised as to what needs to be done to prevent similar breaches going forward. Aside from the social debate surrounding pervasive surveillance, Huq may be looking at legal action as a result of this latest breach, with the Danish data authority investigating whether there may be a "legal basis" for the way Huq has processed personal data.
+
+The Information Commisioner's Office, the UK's digital regulator, has issued a reprimand to another UK-based location data collection firm - Tamoco - for a similar breach of personal data.
+
+This once again highlights the often-insidious level of data collection that has become a societal norm. Tamoco, for example, sold 460 million rows of data to a Norwegian broadcaster in 2019, which ultimately allowed the broadcaster to discover the real identities of people, often at a level of "frightening detail", as described by journalist Martin Gundersen.
+
+Tamoco have yet to comment.
+
+Even in cases where consent is explicitly granted, we as users must do more to understand exactly what we are consenting to, rather than blindly clicking through because we want to use a particular app or service.

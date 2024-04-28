@@ -1,0 +1,122 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+## A History of PC Gaming
+### PC gaming has come a long way. We're taking a look at where it's been and where it might go next.
+
+It's fair to say that when physicist William Higinbotham started messing about with the trajectory-plotting features of the Donner Model 30 analog computer - a chunky block of metal covered in dials, designed for calculating the flight paths of ballistic missiles - he probably didn't think he was birthing a medium that would eventually come to rival the film and music industries in terms of scale and worth. And yet, in 1958, at Brookhaven National Laboratory on Long Island, New York, that's exactly what he did.
+
+His initial prototype only took a few hours to design and less than a month to implement, using an oscilloscope display to render a simple "ball" and lines, along with a pair of custom-made controllers, each with a single button and dial. Two players took turns hitting the animated dot back and forth, using the dial to control the angle of each return shot.
+
+Higinbotham - formerly a member of the team that developed the first atomic bomb, later a staunch advocate of nuclear nonproliferation - said that he thought his little game would "liven up the place," and he was absolutely right. At Brookhaven's annual public exhibition, hundreds of tech enthusiasts and high-schoolers lines up to play Tennis for Two. The display was so successful that an improved version was put on show the following year, allowing players to simulate playing tennis in the low-gravity environments of the Moon and Jupiter. The machine was dismantled following the 1959 exhibition, its components required for less esoteric purposes.
+
+Fortunately, that wasn't the end of it. More than 60 years on, high-schoolers still like pushing buttons to win at virtual sports, but the systems that power those digital matches have evolved beyond anything Higinbotham could have imagined. Last year, AO Tennis 2 was released, showcasing a fully modernised and breathtakingly detailed tennis experience, right down to the yellow fuzz on the ball and the sweat on Nadal's brow.
+
+The games and computer hardware industries have come a long way in those 60 years, slowly making their way from government-funded labs into our homes and pockets. So, just as Higinbotham charted the trajectory of his tiny "tennis ball", we're going to chart the momentous rise of the PC gaming industry.
+
+### Humble Beginnings
+Tennis for Two wasn't exactly the first PC game to be created. For starters, the concept of a personal computer was alien at the time; multipurpose computers with real processing power were huge, while semiconductor technology was still in its infancy. Eight years before Higinbotham created his tiny tennis simulation, Canadian scientists produced Bertie the Brain, a 13-foot-tall behemoth capable of playing naughts & crosses against a human opponent with varying levels of difficulty. Although Bertie was largely written off as a fun novelty at the time, adjustable difficulty remains relevant in games today, more than 70 years later.
+
+There is some dispute as to what the first "PC game" is. Bertie was considered a "game playing machine", but it lacked a proper display, simply using light bulbs and shaped cutouts of Xs and Os. Is this arguably a 3x3 resolution screen? That's not for us to say. Tennis for Two cleverly utilised an oscilloscope as its display, but some argue that the first "true" PC game was Spacewar!, another two-player game designed by computer scientists at MIT for the DEC PDP-1 minicomputer in 1961.
+
+If Tennis for Two was the precursor to Pong, Spacewar! was undoubtedly the inspiration for Asteroids. Players controlled two spaceships facing off against each other in the gravity well surrounding a star, everything presented in tiny dots, lines, and polygons on the PDP-1's early CRT display. With limited fuel and missiles, the goal was to destroy your opponents ship, either with your own weapons or clever maneuvering to force a crash.
+
+While the first version was controller with the PDP-1's mess of tiny switches, programmer Bob Saunders created the first gamepads ever to exist, to better facilitate two-player games.
+
+Spacewar! enjoyed cult popularity among the computing community in the '60s, helped by the fact that its code was placed in the public domain. Other PDP-1 owners were able to play the game, and it was also ported to later models of the PDP. Some programmers using different computer systems even created their own versions. Spacewar! was even modified into Computer Space, the worlds first arcade game unit, ultimately spawning coin-op arcade gaming.
+
+### Home Brewed
+As advancements in microprocessor tech saw CPUs become more efficient, more powerful, and less expensive, the '70s saw the rise of microcomputers. These were easier to store and use than previous models, creating a template for the home desktop PCs we see today.
+
+The lower price of admission also meant that computing was further opened up for hobbyists, with software and hardware enthusiasts alike able to experiment and create in their own homes.
+
+With this, we arrived at what could be called the first proper generation of games. One-man unpaid development teams and limited graphical power meant that these early games, produced and distributed throughout the hobbyist community, were primarily simple text-based adventures. Interactive fiction came to computers, taking cues from the cult success of choose-your-own-adventure books. Years later, the genre persists in the form of visual novels (and, yes, dating sims).
+
+At this point, the publication industry saw a chance to capitalise on the burgeoning popularity of PC games. Creative Computing was one of the first such publications, established in 1974. The magazine came with cassettes containing code for various games and programs, enabling readers to experience a broader variety of games. Creative Computing didn't make it into the 21st century, but the trend persisted, leading to modern-day giants such as PC Gamer.
+
+By the time to '80s arrived, the first consoles were being sold commercially, with personal microcomputers advancing to a point where real graphical fidelity was starting to become an option. Suddenly, those text-based adventure titles needed to offer more; a backbone of narrative options and role-playing stat sheets was fine, but players wanted to see their characters actually move through these fantasy worlds.
+
+The Bard's Tale - no relation to the 2004 comedy game of the same name - was one of these such games, leveraging detailed pixel art of dragons and goblins to support bulks of text and hidden dice-rolls. Dungeon-crawlers of this ilk were popular, no doubt due to the correlation between computer enthusiasts and tabletop gamers at the time. Most other games that achieved commercial success were ports of already-popular arcade titles, such as Frogger and Pac-Man. Simple but effective graphics prevailed in these games; Pac-Man's ghosts were tiny, low-resolution sprites with only three colours, but they remain iconic even today.
+
+With serious (well, serious for the 1980s) PCs hitting the market, gamers were spoilt for choice: ZX Spectrum, Commodore 64, Amstrad CPC, and more. Even the Apple II saw a decent share of early game development, long before Steve Jobs decreed that Apple computers aren't PCs and triggered a decades-long divide between Windows and Mac users.
+
+The entry price for home computers at the time was fairly steep, but comparable to a modern high-end PC; most sat between £3,000 and £5,000 in today's money. Budget options weren't really available yet, but for those with the cash, there was plenty of choice. Although the World Wide Web was yet to bring about forums and online multiplayer, magazines, exhibitions, and hobbyist clubs kept the ball rolling. Consoles were here to stay, too, providing a less adaptable but more affordable alternative for those interested in home gaming.
+
+Prior to the 1980s, third-party game developers didn't really exist; most games were produced by the hardware manufacturer's parent company or created unofficially by amateur coders.
+
+It wasn't until the creation of Activision in late 1979 that third-party game studios were born, as a group of programmers broke away from Atari to design their own games and set the precedent for development teams that could work independently of the companies actually building and selling computers.
+
+### All Good Things
+As both quality assurance and legal regulation surrounding PC gaming were still in their infancy, low-quality clones and rushed clones of popular titles flooded the market. From 1983 to 1985, interest in console gaming plummeted. Some feared that PC gaming would be the next to go, the entire notion of digital games written off as a one-time fad.
+
+Fortunately, PCs are more useful than consoles, and 1983 onward also saw renewed interest in the use of computers for educational purposes. More PCs in households and workplaces meant more potential systems for games to be played on, and the industry was quick to act. IBM released its DOS-based Personal Computer, a game changer within the computer industry that ultimately set the standard for modern PC's; indeed, the IBM PC's primary competition was Apple's original Macintosh computer.
+
+Computer gaming became a booming industry, with companies like the fledgling Microsoft producing popular titles such as Microsoft Flight Simulator. Unlike today's target audiences of families and young people, office workers were the people buying and playing games, as PCs slowly started to become commonplace in white-collar workplaces. What better way to slack off than load up a copy of Dig Dug?
+
+DOS computers started selling like hot cakes. With competition in the market heating up, IBM wasn't able to keep its prices high for long. A wave of IBM PC clones forced prices down, opening up PC gaming to a wider audience. Although still considered a novelty to many, it was undeniable that PC games were beginning to achieve mainstream appeal, with Electronic Arts reporting that many of its customers spent as much as 20 percent of their screen time playing games; even those who had purchased their PCs for unrelated purposes.
+
+Unfortunately, before the end of the '80s, the console market struck back with its coup de grace: the Nintendo Entertainment System, more commonly known as the NES. The console's vast success in Japan and beyond saw console gaming surge back into popularity, with revenue outstripping the modest successes of the computer game market. Still, the humble PC had two more tricks up its sleeve: VGA graphics and online multiplayer.
+
+### Video Killed the EGA Star
+Let's start with why VGA was so important. Before the dawn of the Video Graphics Array, computers -  and, by extension, games - had run through several different industry standards for dedicated graphics. In 1981, IBM had the CGA (Colour Graphics Adapter), which was superseded by the EGA (the 'E' stands for Enhanced).
+
+But VGA offered a serious upgrade, with superior resolution, greater colour options, and improved refresh rates. Its 4:3 aspect ration still kicks around to some degree, and the vast popularity of VGA (and, later, the upgraded Super VGA) among third-party manufacturers made it the new gold standard for PC graphics. Widespread adoption of VGA's 640x480 resolution - laughable today - happened in just a few short years, with IBM shelving plans for a new display controller, the XGA.
+
+Improved graphics coincided with the introduction of dedicated PC soundcards from manufacturers such as Creative Labs (which is still making top-notch soundcards to this day), and PC gaming saw a revolution. By the time we arrived in the heady yet poorly-dressed '90s, DOS systems running VGA graphics dominated the computer game market, paving the way for a new kind of game: the first-person shooter.
+
+Texas-based developer id Software was a newly-minted company in 1991, but the improved graphical capabilities of PCs enabled it to make Hovertank 3D and, a year later, the hugely successful Wolfenstein 3D. These are the games credited with forming the template for the modern first-person game, some of the first games to place players in a fully 3D world, navigated on a horizontal plane.
+
+Wolfenstein 3D is still fun to play - in fact, 2017's Wolfenstein II: The New Colossus featured an arcade machine with a fully playable parody called Wolfstone 3D - and it's somewhat surprising how many features of the game have endured in the 30 years since its creation. The first section of the game was available to play for free as shareware, with the full experience unlocked via purchase; a model that would become game demos as we know them today. Wolfenstein 3D was also one of the first titles to properly utilise texture mapping, the technique by which detailed textures can be applied to 3D models within the gameworld.
+
+The original Doom followed soon after, and achieved even greater acclaim. It wasn't hard to see why: further improved graphics and the fast-paced gameplay fans of the series have come to love (speaking of which, if you haven't played Doom Eternal yet, what the heck are you still reading this for? Go and play it!). Doom was a technical improvement over Wolfenstein 3D in just about every way, but crucially it offered a multiplayer element.
+
+### Bring Your Friends
+Doom had a variety of multiplayer options, from two-player local co-op to four-man deathmantches over dial-up Internet. One Computer Gaming World reader wrote in to describe it as:
+
+> the quickest way to destroy a productive, boring evening of work.
+
+Of course, it wasn't the first game to offer multiplayer options (remember Tennis for Two?), but it was an important milestone in the development of online PC gaming, which has since expanded into a multi-billion pound industry.
+
+Network play actually dates back to the 1970s, when a group of coders got into trouble for hogging the available RAM of the University of New Hampshire's interconnected network of PDP-11 minicomputers in order to play their home-brew digital Dungeons and Dragons campaign. The PDP-11 network allowed multiple users to log into the game from separate terminals, all accessing a segment of shared memory on the university's mainframe computer.
+
+The university banned the games, but the seed was planted - why drag yourself to a friend's house to stare side-by-side at the same screen, when your games could connect remotely? Although the Internet as we think of it was technically created in 1983, it took a few years before it became a viable platform for online gaming. Multiplayer games set up to run on specifically networked systems grew in popularity throughout the '80s, leading to the rise of the local area network, or LAN, party.
+
+Spectre, released for the Apple Macintosh in 1991, was a simple game that saw players take control of a little tank, fighting other tanks with missiles and bombs. Using the AppleTalk network service, up to eight users with their own Macs could connect in the world's first LAN game, enjoying hours of fun blasting each other in Spectre's virtual battlegrounds. Some of Spectre's success was attributed to the way it displayed other players' usernames above their blocky avatars; if you wanted to gang up on the cocky player scoring too many points, it was easy to do so. If you've played a Worms game in the past decade, you'll know exactly how important that feeling is in fostering connections between players.
+
+With the launch of the World Wide Web in 1991, the industry was ready to expand into bigger multiplayer endeavours. Neverwinter Nights was one of the first to set the tone, establishing 96-player server with chat rooms and persistent world states. One player assumed the role of dungeon master, commanding dozens of other players as they moved through the online worlds.
+
+With dial-up Internet reaching more and more homes, the pressure was on to bring online elements to games. Doom's local co-op success made it an obvious candidate, with id Software adding an online multiplayer update a few years after its release. Titles such as Meridian 59 further expanded on the template for online games, introducing online guilds and direct player-to-player messaging. Meridian is also considered to be the first online PC game to require a regular subscription to play.
+
+The real turning point for online PC gaming, as any gamer who was alive in the '90s will tell you, was Quake. Building on the Doom multiplayer blueprint, Quake's 1998 QuakeWorld update offered fierce deathmatches perfectly pitched for online play, whether for settling friendly scores on 1v1 duels or just messing around with friends on the weekend. Quake was also notable for its early adoption of OpenGL 3D, an intriguing new programming interface for rendering 3D graphics.
+
+### New Looks
+Approaching the turn of the century, game graphics kept making leaps and bounds forward. As computers became more powerful, gamers wanted more from their games; APIs such as OpenGL and DirectX were suddenly sought-after mediums for creating advanced, hardware-accelerated 3D graphics. Quake was swiftly followed by Valve's massive breakout hit Half-Life.
+
+Half-Life was unique in its insistence on delivering plot beats to the player in real time, rarely taking the player out of protagonist Gordon Freeman's first-person viewpoint. The graphics were good enough that scripted events and bombastic set-pieces could replace the pre-rendered cutscenes that had become the industry's preferred means of narrative exposition. It was a revolution, and the birth of powerful but more intuitive game development tools, like the legendary Unreal Engine, saw gaming enter the 21st century riding a wave of momentum.
+
+Nvidia and AMD were already locking horns in the graphics card production stakes, and the growing popularity of home PCs (along with the Internet providing the information needed to build your own system) saw the GPU industry boom. No longer were developments in computer tech driving the PC gaming industry; now, gamers drove innovation forward with their insatiable desire for bigger games with better graphics.
+
+The early 2000s saw a number of hit games land on PC. Although massively multiplayer games were around before World of Warcraft kick-started a cultural movement - Neverwinter Nights was one of the earliest, notably followed by Ultima Online and EverQuest - Blizzard's tour de force drove new interest in PC gaming from tabletop gaming circles and beyond.
+
+Successful multiplayer shooters like Counter-Strike continued to make a case for online PC gaming, with consoles (the PlayStation 2 and original Xbox) struggling to keep up. It wouldn't be until the mid-noughties that a new console generation managed to secure wider adoption of online play, while PC gamers enjoyed classics like Battlefield 1942.
+
+Multiplayer was in vogue; by 2010, every game needed a multiplayer mode. Many were produced largely with competitive multiplayer in mind, while others tacked on competitive play as a half-baked afterthought (looking at you, Bioshock 2). Popular multiplatform title such as Call of Duty began to shift away from narrative solo experiences and toward the high-octane bursts of online deathmatches.
+
+### Summer Sales
+Platforms for selling PC games had to evolve. As PC gaming expanded, developers needed easier ways to get their titles into homes, something faster than mail-order catalogues and cheaper than producing thousands of physical copies. Steam was already around (it was founded by Valve in 2003) but once improved Internet access became the norm and the days of dial-up connection died, home broadband enabled the platform to take over the market.
+
+Competitors arrives in the 2010s, following a blissful few years of Steam maintaining almost complete dominance over the digital distribution market. Some crashed and burned - remember Impulse? But some were able to persist, usually with a clever angle. The Witcher developer CD Projekt offered DRM-free games for digital purchase on GOG.com, while Blizzard adapted its old Battle.net game launcher to sell more games, including some from its partner company Activision.
+
+While some major publishers opted simply to feature their new games as timed exclusives on their own digital storefronts (such as Uplay ad EA Origin), others sought to properly challenge Steam.
+
+The Epic Games Store is a plucky newcomer to the digital game distribution industry, but is already ruffling feathers with its free game giveaways and boosted profits for developers.
+
+It's a fascinating situation, especially when the indie game scene gets involved. Developing games for PC has never been easier, and there are far fewer hurdles compared to creating an indie game for consoles, making the PC the perfect medium for a new wave of experimental and innovative game experiences. Epic's decision to take a smaller cut of profits has driven many small and aspiring dev teams to shift away from Steam.
+
+### Independent Lives
+Those indie titles are incredibly important, as they are changing the boundaries of what it means to be a game. The Triple-A PC gaming industry has moved away from innovation and toward perfection, constantly chasing the "next generation" of the same tired analogues. We're not disparaging new features like ray-traced lighting or advanced destruction physics, but technological improvements now seem more important than meaningful experiences for players.
+
+Indie games, meanwhile, aren't afraid to think outside the box. Whether it's the tightly-controlled storytelling of Gone Home and Oxenfree or the potential for players to create their own stories in Among Us, indie games offers a tantalising peek into the future of the PC gaming world. Mainstream gaming has become a cash-spewing behemoth; the indie development cycle is a route to break free of corporate obligations, but it comes with its own struggles and pitfalls, too.
+
+Where does PC gaming go from here? It's impossible to predict. The industry has become huge, with millions of gamers and creators looking for their voices to be heard. Apple and Epic Games recent legal battle could redefine the limits of the gaming industry as a whole, while political bodies are starting to take real interest in games as a form of media and the influence they hold over the public.
+
+One thing is certain: The money will keep flowing. The industry keeps growing, and games keep looking and playing better. Advances in AI promise to bring a new level of complexity, while augmented and virtual reality offer immersion on a whole new level. We hope home PCs can keep getting smaller and more powerful, and we hope people like you keep building them to play games on.

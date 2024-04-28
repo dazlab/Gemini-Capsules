@@ -1,0 +1,46 @@
+=> gemini://gemini.dazlab.uk/index.gmi Go Back
+
+# Compiling Lagrange: A Descent Into Madness (Almost)
+### 26th October, 2021
+
+I've made an effort in the past week to try out as many Gemini client implementations as possible, which I've done with varying degrees of success.
+
+## Terminal
+On the Terminal, I've tried Amfora and AV-98. I prefer solderpunk's AV-98. Written in Python, it's an easy-to-get-your-hands-on, no frills client that just works. Having tried Amfora, which is also great, I found it has a bit too much functionality for what I need out of a terminal client.
+
+## GUI
+Kristall has been my go-to GUI client for the last few weeks, largely due to the AppImage being the only one I could get to run on my Fedora laptop. Functionally, it seems to be very much a work in progress, but it's reasonably nice to use.
+
+I tried using the Lagrange AppImage but it wouldn't launch. Same story with Galacteek. BUT, I've heard really good things about Lagrange so I grabbed myself one of the Windows binaries and ran it on my work machine, and boy was I impressed. Feature-rich, visually stunning, it is a joy to use. It has a number of unique features which set it apart from the other GUI clients out there.
+
+* Supports the display of inline images upon clicking the appropriate link
+
+While not being part of the Gemini protocol itself, for good reason, having the client implement this functionality is a really great innovation. It's avoids having extraneous overhead in the protocol, yet still complies with it by requiring the user to actively want to view the image (by clicking the link). Thumbs up!
+
+* Can play audio streams
+* High Quality text rendering
+
+Naturally, arriving home I wanted to get it running on my Linux machines too. No problem, I thought. Turned out to be a bit more involved that I expected.
+
+I'll document the steps I followed here, along with the issues I encountered at each stage, for reference.
+
+### Step 0 : Read the Documentation
+
+I started out by doing what you should always do: read the documentation. It all seemed straightforward enough; make sure you have the core dependencies present, and any optionals you might like to compile with; run config and then build. The usual workflow when compiling from source.
+
+### Step 1 : Check & Install Missing Dependencies
+
+The build instructions mentioned that certain dependencies had to be met, so I went through them all before running CMake, installing the appropriate packages and development packages where required.
+
+### Step 2 : Cloned into the Git Repo
+
+```
+[daz@dazlab.uk]$ git clone --recursive --branch release https://git.skyjake.fi/gemini/lagrange
+```
+
+### Step 3 : Run CMake to Verify Requirements
+```
+[daz@dazlab.uk]$ cmake . -DCMAKE_BULD_TYPE=Release
+```
+
+I got an error here regarding libunistring not being found. Strange, thought I. I KNOW I have this.

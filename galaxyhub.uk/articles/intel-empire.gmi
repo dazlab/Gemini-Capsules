@@ -1,0 +1,12 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# The Empire Strikes Back
+### But AMD's rebel alliance is ready for Intel's Alder Lake.
+
+Intel has released the best of its new Alder Lake chips first, the headline-grabbing performance models. But what about the more affordable CPUs, the chips we stand a better chance of buying? Thanks to a slip up at Dell, among others, details of further Alder Lake SKUs went online well before the official launch. As expected, we have Core i7-12700, i5-12600, 12500 and 12400, and at the bottom the Core i3-12100. Curiously, the low-end chips don't appear to have any efficiency cores. An early benchmark of the i5-12400, with six performance cores using Adobe Premier Pro, shows it stands right beside a Ryzen 9 5600X. Alder Lake is proving to be a match for Zen 3 across the range.
+
+What's next? Alder Lake mobile comes first, which has entered production, ready for launch sometime this quarter. There are two versions: Alder Lake-P with a PGB of up to 45W and carries six performance cores, and eight efficient cores, along with DDR5 and PCIe 5.0 support. Alder Lake-M is the low-power version, which needs just 9W. Intel isn't resting there, with talk of the 13th-generation chips, code name Raptor Lake, arriving next autumn. It will be socket-compatible with Alder Lake and features a "new" hybrid design.
+
+After this comes the main event, the 14th-generation Meteor Lake. Intel already has prototypes of this chiplet design running. This uses the Intel 4 process and is constructed using chiplets, or tiles as Intel calls them, with a processor tiles (Ocean Cove), a GPU tile, and an I/O tile. The test chip also has a mysterious fourth tile (AI anyone?). The tiles use second-generation Foveros technology to stack other chips on top, making the complete package a 3D hybrid tile design. There are no solid numbers, this is still early days. It's expected to arrive in late 2022 at the earliest and will be a big step.
+
+Meanwhile, over in the red corner, AMD's response is a new chip architecture, and Zen 4 will also be ready next year. Its CEO, Lisa Su, provided a glimpse of the Zen 4 roadmap at its "Accelerated Data Center" event, which was all about servers. Expect the desktop Zen 4 (Raphael) before the end of 2023, some leaked documents indicate it will have twice the L2 of Zen 3.

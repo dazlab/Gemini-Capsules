@@ -1,0 +1,10 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+## Google's 2FA Handling to Change
+### Google backup codes now have their own dedicated page
+
+Google is making it easier for users to sign into their accounts using backup codes after losing their smartphone with a new dedicated backup codes page. When users set up two-factor authentication (2FA) or two-step verification (2SV) as the search giant refers to it, the company issues 10 backup codes that can be used to gain access to your account should you happen to lose your smartphone or your security key. Since you no longer have a second device to verify that it really is you, you'll need to enter these backup codes along with your Google credentials.
+
+In an update to the Google Workspace blog, the company announced that is has created a dedicated backup code page instead of a pop-up. However, you'll still access it from Googles 2-step Verification list on Android, iOS and the Web.
+
+While not exactly an innovation - plenty of other apps and services utilise the use of backup codes, particularly crypto services - this does mark a shift from Google's existing authentication flow.

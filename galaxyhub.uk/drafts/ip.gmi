@@ -1,0 +1,41 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+## Understanding IP
+### Networking technology needn't be complex. We explore the protocol that underpins almost all networks, from your home LAN to the Internet
+
+When we see a string of numbers such as "192.168.0.1", most of us know that we're looking at an IP address. But what exactly is an IP address, and why does it take that form? These are things you might not know - and that's fine, because you don't need that level of knowledge to keep your home or small office network running smoothly and securely.
+
+Even so, the information can be useful when it comes to troubleshooting and optimising your network - and it's interesting, too, in a geeky sort of way.
+
+In this feature, we unravel the mysteries of IP and how it works.
+
+### What Needs an IP Address?
+The full name of IP is "Internet Protocol", but it's not just for Internet connections. In fact, any device that's on any sort of network must have an IP address. If it doesn't have an address, it's not on the network, because nothing else can talk to it.
+
+To be fair, that's a simplification. There are numerous networking systems that don't use IP addresses: in the 1990s and before, many firms ran their networks on Novell NetWare, which used the IPX/SPX protocol; others used the NBF system (also known as NetBEUI) popularised by IBM. Modern technologies such as BlueTooth and ZigBee (the networking technology used by Smart Meters) also allow devices to communicate without using IP. Generally speaking, though, IP has become the universal default for networking, because it's open, mature and suitable for both local and Internet connections.
+
+There also doesn't have to be a one-to-one correlation between devices and IP addresses. There can't be two systems with the same address on a network; this would make it impossible to route packets correctly, and may end up making them both inaccessible. However, one machine can have more than one IP address. Virtual machines often have their own addresses, separate from their host systems. And a single computer will automatically acquire two IP addresses if you enable two network interfaces at once, which you might do for traffic filtering or just so you can access two networks simultaneously.
+
+It's a fair bet, though, that the vast majority of connected devices in your home have one IP address. The exception is your router - but we'll get into that in a moment.
+
+### What Do the Numbers Mean?
+An IP address is normally expressed as a series of four numbers from 0 to 255 (at least it is under the IPv4 standard, which we're focusing on here). Believe it or not, this convention is intended to make addresses easier for humans to work with: for a computer it's just a convenient four-byte chunk, or a single 32-bit number.
+
+Since each of the four sections is an eight-bit number, the parts are known as octets. On most home networks, the first three octets will be the same for every device. The last number uniquely identifies each client; self-evidently this means you can have up to 255 devices on a single network, minus a few addresses that are reserved for special functions.
+
+If you need more than this, you can create additional subnets. For example, many home networks have addresses in the range 192.168.0.x; if you need more, you can start using 192.168.1.x, and so forth. If you use all available combinations of the third and fourth octets, you get a generous total of 65, 025 addresses.
+
+### Who Decides What Gets A Specific IP Address?
+Every device or server that's directly connected to the Internet needs to have its own unique IP address. This will normally be assigned by the ISP providing the Internet service, which acquires the rights to address ranges from a regional Internet registry. At the top of the tree, the Internet Assigned Numbers Authority (IANA) monitors and manages the registries and makes sure that no-one is using addresses they're not entitled to.
+
+However, the individual computers inside a home or office network don't normally have a direct Internet connection. They have access to an Internet gateway, but their own addresses are internal ones that are only valid inside the local network.
+
+How are these internal addresses determined? When IP-based networking was new, it was common for the network administrator to assign a permanent ("static") address to each computer on the network. However, this approach involves a considerable management overhead, and doesn't permit simply plug-and-play connections to the network. Nowadays we use a system called the Dynamic Host Configuration Protocol - DHCP for short - which allows the router (or a dedicated server) to automatically allocate a unique internal IP address to each device as soon as it connects to a network.
+
+While this makes life easy, it can create confusion, because DHCP allocations don't last forever. This doesn't mean things will get kicked off your network - if a device is still in use when its address lease expires, it will be quietly given a new one, and normally you won't even know it happened. However, with something like a NAS appliance or printer, you might want to ensure that the IP address never changes, to make certain that all connections and network functions will keep working.
+
+There are two ways of achieving this: One is to configure the IP address manually on the device itself, just as you would have on an old static network. Just make sure that your chosen address doesn't clash with anything else on the network; and easy way to do this is to choose an address like 192.168.0.3, then go into the DHCP settings on your router and set the DHCP address range to start at 192.168.0.4.
+
+Alternatively, you can keep whatever address was automatically assigned and tell your router to permanently reserve that address specifically for that device. You can normally do this from the client list in your routers interface, or using a dedicated IP address reservation page. Strictly speaking, the router is associating the IP address with the hard-coded MAC address of the clients' network interface, so if you were to take the network card out of one machine and put it into another, the IP address would go with it.
+
+### What is NAT?

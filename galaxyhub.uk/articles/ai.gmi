@@ -1,0 +1,20 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# AI is a Human Rights Problem
+### The UN has called for a moratorium on certain kinds of AI, and it's about time.
+
+The UN went gloves-off on AI last month, with High Commissioner for Human Rights Michelle Bachelet calling for a moratorium on the use and sale of any AI systems that threaten human rights.
+
+"Artificial intelligence can be a force for good, helping societies overcome some of the great challenges of our times," Bachelet said in a prepared statement. "But AI technologies can have negative, even catastrophic, effects if they are used without sufficient regard to how they affect people's human rights."
+
+She continued: "Artificial intelligence now reaches into almost every corner of our physical and mental lives and even emotional states. AI systems are used to determine who gets public services, decide who has a chance to be recruited for a job, and of course they affect what information people see and can share online."
+
+That reads like a stinging indictment, but it's more subtle: Bachelet isn't talking about all AI: she's not accusing nVidia's DLSS of human rights abuses, or crap-avoiding Roombas of perpetuating injustice. What she's talking about, it seems obvious, is technology like Amazon's Rekognition [1]. Among other things, that AI technology has be trialled by US law enforcement to identify criminal suspects' faces, though Amazon workers wrote to Jeff Bezos in 2019 to appeal against its sale to the likes of ICE and Homeland Security. Amazon announced its own one-year moratorium on law enforcement use of Rekognition in June last year, in the wake of the George Floyd protests.
+
+But a moratorium ain't an abandonment. Other companies, like Microsoft, have actually called on governments to regulate facial recognition technology, especially where it can "increase the risk of decisions and, more generally, outcomes that are biased and, in some cases, in violation of laws prohibiting discrimination." For its own Azure Face recognition software it has adopted a series of self-imposed policies ensuring "fairness", "accountability" and "lawful surveillance", among other things. Washington State instated a law in 2020 putting severe limitations on public sector use of facial recognition, largely thanks to Microsoft's lobbying.
+
+That's arguably one of the biggest considerations on Bachelet's mind, but Australian's have experienced something similar - albeit on a less technologically sophisticated scale. Take Robodebt, the Australian government's automated debt recovery technology that caused a stir in 2017 when it was found that some people were being hit with debt notifications they actually didn't owe. The system was also found to issue debts to deceased people, and has been blamed for suicides. The Morrison government scrapped the technology in 2020.
+
+Algorithms as a replacement for bureaucracy is both incredibly tempting and utterly nightmarish. Tempting for the government and organisations, scary for the rest of us. And that's not to mention warfare, where AI advancements tend to find their origin and continue to evolve in quite terrifying ways: whack some imperfect facial recognition software into an autonomous military robot and see if it serves up justice.
+
+AI is fascinating tech: it's already changed the world and will continue to do so in ways that we probably can't fathom right now. But the people and organisations in charge of it need to be made to tread carefully. Governments were slow to respond to a lot of internet-age technologies and platforms that have irrevocably changed the world, sometimes for the worse. It can't afford to do so with AI.

@@ -1,0 +1,10 @@
+=> gemini://gemini.dazlab.uk/index.gmi Go Back
+
+# A Few Updates
+### 30th October, 2022
+
+## New Puppy!
+We got a Golden Retriever puppy three weeks ago. Her name is Harley, and she is absolutely adorable! We're going to puppy training classes, and are toilet training. First few weeks have been...an adjustment.
+
+## Work Projects
+In addition to learning C#, I'm also deeply invested in ASP.NET MVC development. It's hard going, but I'm sure it will pay off. If I can just focus for long enough to do the learning...

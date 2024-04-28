@@ -1,0 +1,95 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# Event On The Horizon
+### The Sun could one day take out our electronics and communications technology in mere moments
+
+In their day-to-day lives, our PCs and other electrical equipment are unlikely to come into contact with charged particles, but every now and then, the Sun reaches out to touch us. Protected in the Earth's magnetic bubble, we don't often notice the effects of the solar wind unless we live far enough north or south to see the aurora. Our Sun is, compared to other places in the Universe, a relatively placid, middle-aged star, but occasionally it can surprise us.
+
+The Sun operates on an 11-year cycle. in 1859, it was approaching the middle of this cycle, the time of greatest activity. Astronomers, equipped with ever-improving telescopes, were starting to take more of an interest in the Sun around this time, and the first observation of a solar flare was made on September 1st that year by the astronomers Richard Carrington (for whom the solar storm is named) and (independently) Richard Hodgson, both based in southern England.
+
+That flare, which Carrington observed by projecting the output of his telescope onto a screen through a broad-band filter turned out to be enormous, a white light flare of extraordinary intensity.
+
+> Remember, never look at the Sun with the naked eye, or with any kind of magnifying equipment, or indeed with anything other than an approved solar filter.
+
+Solar flares are associated with coronal mass ejections, and both are common when sunspots are on display, as these temporary, dark patches are signifiers of magnetic activity on the stars' surface. As the 11-year cycle goes on, the sunspot count moves from none, sometimes for hundreds of days at a time, to anything up to several hundred at once.
+
+### Of Sunspots and CMEs
+Nobody was counting sunspots in 1859, though they were known to Chinese astronomers back in antiquity, and were mentioned by the Ancient Greeks. They were first drawn (that we know of) by an English monk in 1128. It took until 1610 to get a telescope on them, which is fair enough as the instrument was only patented in 1608, but it wasn't until the early 1800s that the astronomer William Herschel was able to associate sunspots with varying levels of solar activity. His hypothesis that an absence on sunspots led to higher wheat prices on the market was widely ridiculed at the time.
+
+While the precise nature of sunspots is still a matter of research and debate, it seems like he was right. Solar minima lead to cooler years, on average, which would have made wheat harvest smaller, pushing prices up. Fossil records suggest this cycle has been stable (between nine and 14 years, for an average of 11) for 700 million years. We're currently in an active warm period, similar to that around the year 1000. There have been extended cool, low activity periods in the last too, most recently the "little ice age" that ran from the 16th to 19th centuries.
+
+Sunspots appear to be the visible effect of magnetic flux tubes in the Sun's convective zone - an unstable layer just below the star's surface that's churning with convection currents as heat and other forms of energy are sent out by the fusion reactor running at its core. They are twisted and wound by differential rotation - different areas and depths of the Sun don't all rotate at the same speed.
+
+So what happens when the irresistible force of the Sun's plasma ejection hits the immovable object of the Earth's magnetic field?
+
+> "These large eruptions release large amounts of hot material called plasma,"
+
+says Dr Ravindra Desai of Imperial College London, who previously worked as Los Alamos National Laboratory, New Mexico, and NASA Goddard Space Flight Centre, Maryland. Among other interests, Desai attempts to forecast the Sun's activity, a phenomenon known as space weather.
+
+"When the plasma strikes Earth, it's deflected by the planet's magnetic field," he says.
+
+> "The Earth protects us from the majority of the onslaught, but the plasma flows along those magenetic field lines and causes the Aurora Borealis, which is a wonderful thing to see, but it also causes electrical current systems in the ionosphere and the ground. They aren't dangerous to human beings, but can knock out power stations and satellites."
+
+This happened in 1989, when a billion-ton cloud of plasma was ejected from a powerful explosion on the Sun at a million miles per hour. Two days later, it struck the Earth, sending aurora as far south as Cuba and causing the entire Canadian province of Quebec to lose power for 12 hours after its transformers blew. Electrical grids across the United States also saw drops in their power output, with over 200 incidents reported. Luckily, the US had enough power in reserve to keep the lights on. Satellites tumbled out of control, and the orbiting Space Shuttle Discovery developed a mysterious fault in one of its hydrogen tanks that disappeared at the same time the storm abated.
+
+While the 2012 event missed the Earth by approximately nine days, it instead hit the STEREO A spacecraft, part of a pair of sun-observing probes that orbit both ahead of and behind the Earth to provide a stereoscopic image of the Sun. STEREO A (the probe ahead of the Earth) was largely undamaged by the plasma due to not being within a magnetic field at the time, but the failure of STEREO B led to the ending of the mission in 2018.
+
+The 2012 event is thought to have been as powerful as in 1859, and it looks like Earth had a narrow escape.
+
+> If it had hit, we would still be picking up the pieces,
+
+said Professor Daniel Baker, director of the Laboratory for Atmospheric and Space Physics at the University of Colorado in a NASA statement in 2014.
+
+> In my view, the July 2012 storm was at least as strong as the 1859 Carrington event. The only difference is, it missed. I am convinced that Earth and its inhabitants were incredibly fortunate than the 2012 eruption happened when it did. If it had occurred one week earlier, Earth would have been in the line of fire.
+
+### Chances of it happening again
+Also writing in 2014 was the physicist Pete Riley, of Predictive Science Inc. He analysed records of solar storms going back over 50 years, and by extrapolating the frequency of ordinary storms to the extreme ones, he calculated the odds that a Carrington-class storm would hit Earth in the next ten years. His answer: 12 percent, or one in 8.3. We may have three years left left on this prediction, but the threat doesn't go away after that.
+
+As it happens, we're now entering a new solar cycle, the 25th since records began. This means that solar activity has been at a minimum for a while, "but in the last few months we've already seen the Sun become more active," says Desai. Cycle 24, which ended in 2019, was a quiet cycle, yet included the enormous storm of 2012. Predictions have been made for Cycle 25, but anticipating the actions of a star is tricky, and different methods produce different results. "It's already releasing coronal mass ejections," says Desai, "so the chances of a severe solar storm are getting higher."
+
+Those, as every XCOM 2 player knows, are the kind of odds that do come up.
+
+> The effects could be pretty bad - it could cost the world's economy trillions of dollars. In terms of actual damage, it could knock out satellites, which would have an effect on our communications systems, anything from financial systems to those that open train doors.
+
+Also, electrical current systems in the atmosphere and on the ground can knock out large transformers, which is what happened to Quebec in 1989. Luckily, they were able to get things back online, but these transformers take many months to build. So if a huge solar storm happens, and knocks out these transformers, a worst-case scenario could be that it takes many months, if not years, to get our grid capacity back up to where it was before.
+
+### Cosmic ray processor lockup
+Energetic particles don't have to come from our Sun, though. Cosmic rays, high-energy protons, and atomic nuclei zipping through space at almost the speed of light can come from as far away as other galaxies, possibly from supernovae. The most powerful are carrying an energy level 40 million times that produced in the Large Hadron Collider, described as like being hit by a baseball travelling at 90kph. Most, however, don't have this kind of energy, but when they hit our atmosphere they still cause a shower of secondary particles, some of which will reach the surface and affect our electronics.
+
+A study by IBM in the 1990s suggested there was one cosmic-ray-related error per 256MB RAM per month. In a machine with 64GB RAM, that's 250 cosmic ray errors a month, or 8.3 per day. In 2008, Intel patented an on-chip cosmic ray detector that repeated commands it decided had been affected by charged particle interference. Wherever they come from, energetic particles cause electrical currents to move through our atmosphere, and also in the tiny electronics of our CPUs and other devices, providing power where it's not wanted, in the same way that telegraph operators were unable to switch off their equipment in 1859. Whether it's burning out your logic gates or frying the nearest substation, CMEs are bad news for electronics.
+
+What, though, happens if you're not protected by the Earth's magnetic field? Astronauts aboard the International Space Station have to take shelter in the more heavily protected (often Soviet-built) parts of the station during a solar storm, and they're only 400 kilometers above the Earth's surface. If you're making a probe that will travel further afield, then you need to do something to protect it from radiation. Something like the European Space Agency's Sun-observing Solar Orbiter, for example.
+
+> There is no plan to avoid coronal mass ejections,"
+
+says Piers Jiggens of the ESA's Space Environments and Effects section. "A major high-level goal of the Solar Orbiter mission is to observe eruptions on the Sun and then to correlate those observations with in-situ measurements. From an instrumental standpoint, we require that they can observe the entire range of plasma and radiation thrown at them, which at the closest passage of Solar Orbiter can indeed be 10-20 times more intense than what we might see close to the Earth. It's more interesting for us to be able to predict them, in case it could be used in operational planning, so we get back the most interesting data. Plasma can cause charging on the spacecraft's surfaces, so it's important that we use conductive surface materials, paints, and coatings to dissipate this charge and avoid potentially damaging discharges. The higher energy radiation can penetrate the spacecraft shielding and deposit energy in dielectrics and other spacecraft materials, affecting their electrical and material properties. We need to take this into account when designing the electronics for spacecraft because how they can perform at the end of their lives can be different from at the beginning. This often means operating components in safe zones at lower voltages - a process known as de-rating. The short-term impact of solar radiation storms includes upsets in electronics and memory, which can manifest as non-destructive events requiring correction, or destructive events requiring mitigation."
+
+If you're designing a computer to run in space, then you need to build it for the environment. Meet the Rockwell DF-224, 50kgs of silicon that measures 18x18x12 inches and runs at 1.25MHz. This was the original computer fitted to the Hubble Space Telescope and was considered for use on the Space Shuttle too. It's a highly redundant design, both to mitigate the effects of radiation and because maintenance in space is hard. So there are three CPUs, one active and two backups. Six memory units, of which four could be powered up at once, three I/O controllers, and six independent power converters. Aboard Hubble, the first servicing mission upgraded the DF-224 with a 16MHz 80386 as a co-processor, then the third servicing mission swapped the lot for a 25MHz 80486. Hubble was recently restarted following a switch to its backup Power Controller Unit, showing the resilience of the 90s-era technology.
+
+### Spaceproof CPUs
+
+Making a processor that can be used in space - as opposed to the relatively balmy environment of the International Space Station, where Linux-based ThinkPads are the norm - means more than just redundant design. Take the BAE Systems RAD750, the CPU in various space telescopes, the STEREO probes, and the Perseverance rover on Mars. It's based on an IBM Power design known by Apple as the G3, is manufactured on either a 250nm or 150nm process, and with its attendant motherboard is good for temperatures of -67॰F and a radiation exposure of 1,000 grays (five would kill a human). The RAD750, a chip that graphic designers gave up in the 2000's, is state of the art for space CPUs, and costs US$275,000.
+
+You'd get better performance for your space-buck if you used off-the-shelf components, but unfortunately, this has been tried. A Russian attempt to explore the Martian moon of Phobos, known as Fobus-Grunt, prioritised budget over spaceworthiness, and 62 percent of its chips were not qualified for going into space. Some, the SRAM, had been tested in a particle accelerator and were found to be extremely vulnerable, latching-up (a short circuit where a voltage spike in one transistor can spread to others nearby) at the minimum levels of particles it was exposed to. Still, the Russian space agency stuck it on top of a rocket and fired it at Mars in November 2011.
+
+Explanations differ, but one story, sourced from a Russian military newspaper, is that a particle passed through the SRAM preventing the probe from firing its engines to get out of the low Earth orbit provided by the Zenit-2M rocket booster. The dual processors in the onboard computer initiated a reboot, then went into safe mode to await instructions. These never came, because the antennas the probe used to listen to ground control were extended in the cruise stage after it left Earth orbit. No antennas meant no engines, and no engines meant to antennas. The probe, worth 2.4 billion rubles (approx USD$330 million), fell into the Pacific ocean in January 2012.
+
+### Going Nuclear
+
+There's another way that our electronics could end up on the wrong end of the electromagnetic force, and that's thanks to a nuclear explosion. Like a coronal mass ejection, the EMP generated by a nuke is a short-term phenomenon rather than the constant bombardment of radiation in space. A nuclear device detonated at the right altitude could bathe the entire continental US in EMP, having a catastrophic effect of communications and the grid infrastructure, according to a 2008 report from the EMP Commission.
+
+The group was formed in 2001 to "assess the nature and magnitude of potential high-altitude EMP threats to the US from all potentially hostile states," and its report[1] makes for terrifying reading.
+
+=> http://www.empcommission.org/docs/A2473-EMP_Commission-7MB.pdf Report of the Commission to Assess the Threat to the United States from Electromagetic Pulse (EMP) Attack
+
+It discusses how everything from water and food supplies would be affected by a burst of charged particles from the upper atmosphere. A high airburst would inflict maximum damage - explode close to the ground and it loses much of its energy into the Earth.
+
+As with CMEs, ionised particles passing through the chip cause currents that can lead to transistors randomly opening, or latch-ups. These phenomena cause bit-flips, where a 1 or a 0 becomes a 0 or a 1, changing the content of memory or the data being processed. Using ECC memory is one way of dealing with this, and the errors can often be cleared with a power cycle, but enough voltage can cause a transistor to burn out, and long-term exposure causes gradual degradation of a processor or memory chip as electron-pair holes build up in the gate insulation layers. Eventually, the charge built up by charged particle bombardment can keep transistors to stay open or closed. The smaller your production node, the more likely you are to suffer the effects of charged particle damage, so as our tech advances, we make it more likely to fail in the event Earth is hit by a CME or EMP.
+
+Chips designed to mitigate these problems are often built on an insulating substrate rather than the normal semiconductor wafer, such as silicon-on-sapphire, which uses aluminium dioxide's insulation properties to prevent stray currents doing an end-run through the substrate and leaking into more of the chip. SPace-grade sapphire chips can withstand up to 3,000 gray, and eliminate latch-ups. It's also possible to build in redundancy at the bit level, with each logical bit replaced with three.
+
+Another method is to have three microprocessor boards instead of one, all doing the same calculations and comparing answers. Any minority answers are recalculated, and a board that consistently reports a wrong answer is shut down or restarted. Restarts can be carried out on a timer to clear flip-bits, while a simple radiation shield - a slab of lead or other material in sufficient amounts - prevents particles from reaching the silicon. When launching into space, however, every fraction of an ounce counts, so heat shields are made with clever design, keeping as much of the body of the spacecraft as possible between the CPU and the source of radiation.
+
+Keeping a spare laptop under a lead cover may be the only way to guarantee your tech survives Earth being hit by a CME of the scale seen in 1859. How useful that will be in a world devoid of an electrical grid or functioning communications is another matter, but at least you'll be able to play Minesweeper until the battery runs out. Older tech, such as ham radios, seem more likely to survive due to their relatively large transistors being less likely to burn out in a voltage spike, but there's a catch: HF (shortwave) signals bounced off the ionosphere for over-the-horizon communications can be disrupted by solar activity such as radio bursts or the X-rays given off by solar flares.
+
+The Sun always seems to be one step ahead of us. At least, with satellites monitoring the Sun and space weather simulations being run on supercomputers, we should get some warning this time.

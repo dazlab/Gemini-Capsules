@@ -1,0 +1,46 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# Microsoft forcing people to use Edge is familiar, frustrating, and foul play
+### Microsoft is using the dominance of Windows to force people to use a certain Web browser...again.
+
+Microsoft recently explained why it prevents apps like EdgeDeflector from intercepting links that open Microsoft Edge. In addition to its statement not adequately justifying such a stance, it also fails to address a bigger issue - that people should be able to use their own default browser.
+
+Windows 11 uses edge:/protocol links in certain elements of the OS, such as the News widget. These links open in Microsoft Edge, even if you have a different browser set as your default. Until recently, EdgeDeflector could intercept these types of links and redirect them to whichever browser people would like. Microsoft was apparently unhappy with this, as well as the fact that Mozilla was working on a similar feature for Firefox. As a result, the tech giant "fixed" the "improper redirection".
+
+Before I dive into the situation, here's the statement a Microsoft spokesman provided about the topic:
+
+```
+Windows openly enables applications and services on its platform, including various Web browsers. At the same time, Windows also offers certain end-to-end customer experiences in both Windows 10 and Windows 11, the search experience from the Taskbar is one such example of an end-to-end experience that is not designed to be redirected. When we become aware of improper redirection, we issue a fix.
+```
+
+To paraphrase, Windows lets people use non-Microsoft applications to perform tasks, except when Microsoft wants people to use Edge.
+
+### This isn't about the quality of Edge
+The issue with this situation isn't related to whether Edge is a good browser or not (it isn't, by the way). Plenty of users use Edge as their daily driver. The problem with what Microsoft is doing is that it's forcing people to use the browser.
+
+Microsoft says that there are certain experiences that aren't designed to be redirected. Why? Is a story from the News widget only going to work in Edge? When I search for "how to change my default browser" in the Taskbar, am I only going to see good search results in Edge? If Microsoft is going to let people set a default browser, that's what it should be - a default browser. In the event I set Chrome, Brave, Firefox, or anything else as my default browser, I should never see a link open in Edge.
+
+Mozilla seems to agree with me:
+
+```
+People deserve choice. They should have the ability to simply and easily set defaults and their choice of default browser should be respected,
+```
+said a spokesman for the company to The Verge.
+
+The developer of EdgeDeflector is more direct. They state:
+
+```
+These aren't the actions of an attentive company that cares about its product anymore. Microsoft isn't a good steward of the Windows operating system. They're prioritising ads, bundleware, and service subscriptions over their users' productivity.
+```
+
+### This isn't new behaviour from Microsoft
+I won't claim to be a legal expert, but I will highlight that Microsoft attempting to force people to use a browser isn't new. Decades ago it was Internet Explorer. Now, it's Edge. Microsoft seems hell-bent on getting people to use its browsers, even by force.
+
+Forcing people to use a certain piece of software is always a bad look. I've seen people point out that Apple makes people use certain apps by default. So what? That's bad too, I'm not going to excuse a company for ignoring default app settings because I use their products.
+
+Microsoft, Google, Apple, and all other companies should give people a choice. The situation with Microsoft is particularly infuriating because Windows claims that you can set different apps as your defaults. It then duly notes and ignores these settings.
+
+### This isn't the way
+For some, Edge is a fine option in and of itself. Plenty of people I know have switched over to the Chromium version of Edge as their default browser. But I suppose that isn't good enough for Microsoft. Rather than organically convert people to its product, Microsoft appears determined to use the dominance of Windows to foist Edge on users to everyone and their grandmother has to summon the browser when they click the weather widget on the Taskbar to check out the forecast. 
+
+Spoiler alert: it's partly cloudy with a chance of Microsoft spitting on you and saying it's rain.

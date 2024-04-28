@@ -1,0 +1,24 @@
+=> gemini://gemini.dazlab.uk/projects/learningCsharpforWork/index.gmi Go Back
+
+# Learning C# for Work
+
+### Let's Get "The Basics" Out of the Way
+
+C# has all the usual primitives you'd find in other programming languages: integers, strings, boolean etc. All primitives are value types, and - since it's a managed language - all data structures, objects etc. are reference types. No need to define pointers or worry (too much) about disposing of objects when you're finished with them.
+
+It's a strongly-types language, so you need variable declerations prior to use. Also, if you declare one but never assign it a value the compiler won't allow it. 
+
+```
+    internal readonly string { get; private set; }
+```
+
+The get and set specify whether the property can be read/written to. Above it's read only, but can be set within the class.
+
+Loops and conditionals are fairly standard, C-syntax stuff. Ive used foreach loops in PHP, and they're identical in C#.
+
+```
+foreach(thing as things)
+{
+    // Do stuff here
+};
+```

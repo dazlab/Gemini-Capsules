@@ -1,0 +1,34 @@
+=> gemini://gemini.dazlab.uk/index.gmi Go Back
+
+# In Defence of Ubuntu
+### 25th October, 2021
+
+Ubuntu is often touted as being "a good distro to start out with..." for many Linux newbies. True, Canonical's flagship and highly popular distribution has traditionally led the march in terms of lowering the barrier for entry, and there's no denying that many fledgling Linux users do indeed start by firing up a live USB of the latest 'Buntu.
+
+Still, I believe this creates a perception amongst many in the Linux community that Ubuntu is the brightly-coloured pop-up book of Linux distributions; that it's all well and good in the beginning, and that as you gain "The Knowledge" that you'll swiftly and surely move on to a "proper" distro, such as Arch or Gentoo.
+
+Well, as you've probably guessed by this point, I wholeheartedly disagree.
+
+I've been using Ubuntu since 2004; having played around with installing Red Hat in the '90's (and failing), then attempting (and failing) to get Suse Linux running on my Toshiba Satellite Pro laptop -back when laptops were not the norm -, I (FINALLY!) got through a Linux installation, at the end of which I had a working, Internet-connected Linux operating system for the first time.
+
+Through the years I've learned a lot by breaking a lot, fixing it, breaking it again - all the while gaining a wealth of experience in the process. But make no mistake, I wasn't operating in a vacuum; I'd tried a number of alternate distributions, everything from Slackware and Gentoo, to Arch and RHEL, in a number of configurations, both server-side and on the desktop. My love of Ubuntu has less to do with "fanboyism" and more to do with desiring a stable, reliable "daily driver" on which to do all my other interesting work.
+
+I still like to keep an eye on the Linux landscape, and as a testament to that I'm currently writing this Gemlog entry on a laptop running Fedora 35 (I absolutely love working with DNF), but I still view Ubuntu as my primary environment.
+
+### OK, So What's So GOOD About 'Buntu Anyway?
+
+At this point you might want to know exactly what it is about Ubuntu that keeps me sticking around after all this time. Hard to say, really. Now that I try to articulate it. Here's a list:
+
+* Their GNOME implementation is visually stunning and well-integrated.
+* Aptitude package management is easy-peasy.
+* Huge app catalogue, with PPA's and (wait for it!) Snap packages.
+* Rock solid platform, very reliable, very few bugs/issues.
+* Support from the community is excellent.
+
+Don't regard this as the de-facto reasons, I'm just launching thoughts, and there are certainly things that bug me about Ubuntu (net-tools not being installed by default!).
+
+Fedora is definitely nice to work with, but there are a LOT more crashes and instabilities with their GNOME implementation. And, of course, that's to be expected when using the bleeding-edge packages (not to mention running the next version in beta) so I'm not counting that against 'Dora, but I have noticed similar behaviour using 34, 33 and 32 also.
+
+But, yeah. I'd be interested in hearing your thoughts!
+
+=> mailto:dazlabuk@protonmail.com

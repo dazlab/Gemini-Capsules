@@ -1,0 +1,70 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# Cyber Warfare
+
+### The world has changed markedly since the widespread uptake of technology - there isn’t a single industry that has been left unaffected by the world’s transition to a more tech-assisted life. While not an industry itself, the statement also rings true for international conflict where the days of traditional warfare purely taking place on land, air, and sea are now far behind us.
+
+We now have to distinguish what type of warfare we’re referring to in conversation. The ‘traditional’ idea of war: guns, fighter jets, missiles, and landmines - that’s all now grouped under ‘kinetic’ warfare, a separate style entirely to cyber.
+
+The value of technology is lost on no-one and certainly not on the finest hackers on the planet who are often courted by nation-states in their ambition to build a battalion of front-line cyber security experts. This is because cyber warfare is on the rise - taking out a country’s internet systems remotely, perhaps via a DDoS attack, is more time and resource-efficient than sending a squadron to blow up the physical infrastructure, for example.
+
+Since technology has value everywhere, it doesn’t take a military mind to understand that the same level of disruption can be caused more easily and with less risk to life from behind a keyboard, nowadays, than it sometimes can on the battlefield.
+
+### Is anyone currently engaged in cyber warfare?
+
+The blunt answer to this question is ‘yes’. The ongoing conflict in Ukraine, instigated by Russia’s invasion earlier this year has led to one of the most visceral examples of concurrent kinetic and cyber warfare seen to date.
+
+We’ve seen a string of remarkable occurrences happen on the cyber side that would each in themselves merit consideration for a ‘story of the year’ award in any other, more normal and historically insignificant year.
+
+For example, the Ukrainian government assembled a cross-border ‘IT army’ to help fight against Russian cyber attacks - of which there have been many. We’ve also seen underground criminal outfits pledge allegiance to Russia, dedicating their nefarious services to assist the aggressors in cyber space while foot soldiers continue to commit war crimes on Ukrainian soil.
+
+The situation in Ukraine aside, just about every developed country has robust capabilities in cyber space and there are a number of countries actively developing digital weapons to use in future conflicts. Russia and China are the main focal points there, but other countries that are just as active include the US, France, and Israel. This isn't to say that these countries are using these capabilities, although we know they possess the cyber weapons themselves and have used them in the past. For example, Stuxnet was a joint venture between the US and Israel to destroy Iran's nuclear programme capability.
+
+### What weapons are used in cyber war?
+
+The tools of destruction used in cyber attacks do bear some resemblance to weapons commonly used in other criminal attacks, in that they incur the same effect.
+
+For example, botnets that exist to launch distributed denial of service (DDoS) attacks can target critical services and cripple entities digitally or may even serve as a diversion from other malicious cyber activities, such as attempts to infiltrate the network. Spear phishing and social engineering, too, are techniques also deployed to get cyber criminals closer to the targeted systems. Threats from the inside pose a significant risk for organisations hoping to safeguard their systems against intruders, though are highly potent as far as hackers are concerned, allowing hackers to directly expose a network to a threat, or allow a group to steal sensitive data.
+
+One useful example of how multiple layers of attack can be used to great effect is Stuxnet, which was first encountered ten years ago. An employee situated inside an Iranian nuclear power site inserted a USB stick embedded with the Stuxnet worm, either knowingly or unknowingly, into an air-gapped system. Exploiting multiple zero-day exploits, this malware searched for specific software running centrifuges, and commanded them to spin dangerously fast and then slow for a period of months without being detected. These centrifuges eventually broke and more than 1,000 machines were rendered useless.
+
+The attack was never successfully blamed on any known party, although it's thought that this cyber weapon was created jointly between the US and Israeli military entities. While neither nation has denied the charge, it's also alleged Stuxnet was played as part of a showreel at the retirement party of the head of the Israeli Defence Force (IDF).
+
+However, cyber warfare can also take a more subtle form. In April 2021, MI5 issued a warning of foreign agents using LinkedIn to steal information, with more than 10,000 British nationals, including government employees, having been approached by fake LinkedIn profiles associated with hostile states. However, public sector workers aren’t the only targets: in July, the MI5’s director general warned that businesses engaged in export, scientific research, and the high-tech sector should also be aware of the potential risks of falling victim to cyber espionage. These attacks have prompted the Centre for the Protection of National Infrastructure (CPNI) to launch the Think Before You Link campaign, which warns people against accepting messages or connection requests from unknown accounts.
+
+### Other examples of cyber Warfare
+
+While Stuxnet is one of the best examples of cyber warfare in action, there are other significant events that can be attributed to state-level attacks.
+
+One recent example comes from Russia - a country that has been accused of many and various state-level cyberattacks. Russia is accused of mounting multiple cyber attacks against Ukraine, including the BlackEnergy attack that cut the power to 700,000 homes in the country in 2015 and the NotPetya malware, which masqueraded as ransomware but was in reality designed purely to destroy the systems it infected.
+
+North Korea, which has been generating headlines over its nuclear posturing and turbulent diplomatic relationship with the US, has also been active in cyber space. According to researchers, the North Korean state has been linked to the prolific and dangerous hacking organisation codenamed HIDDEN COBRA, also known as the Lazarus Group. Both the Sony hack of 2014 and the hack of a Bangladeshi bank in 2016 were pinned on these hackers.
+
+More recently, reports in January 2020 claimed a cyber attack on the United Nations (UN) was the work of state-sponsored hackers. The attack saw hackers compromise at least 40 servers at UN offices in Vienna, Geneva and the UN Office of the High Commissioner for Human rights.
+
+The coronavirus pandemic, as well as the international vaccine effort aimed to tackle it, also gave way to a new kind of cyber warfare focused on targeting public health providers and research facilities. The last 18 months have highlighted the necessity of accessible healthcare as well as the importance of medical research, making it a likely target for state-sponsored cyber criminals.
+
+During the first UK lockdown, a joint-advisory published by the National Cyber Security Centre (NCSC) and US Cybersecurity and Infrastructure Security Agency (CISA) warned against a wave of password spraying attacks from state-backed hacking groups targeting critical organisations like healthcare bodies and pharmaceutical companies. Although the advisory didn’t name any specific hacking groups nor states, months later, Microsoft found that pharmaceutical companies researching treatments and vaccines for COVID-19 were being actively targeted by hackers sponsored by the Russian and North Korean governments. The groups behind the “unconscionable” attacks were named as Strontium, Zinc, and Cerium, with the three having targeted seven companies, including one clinical research organisation and a company that had developed a virus test.
+
+
+Although ransomware attacks on healthcare providers can be traced back to long before the pandemic, the last year has magnified these attacks, proving that no target is off-limits for cyber criminals. Attacks on key infrastructure may severely impact the functioning of a state, but attacking hospitals can lead to much more than just financial loss. An example of such was the March 2020 attack on one of the largest coronavirus testing facilities in Czechia, which was forced to temporarily cancel surgeries and transfer new patients to other facilities as it became a target of cyber criminals. In two days after the cyber attack took place, the number of confirmed coronavirus cases in the country more than doubled to 298.
+
+### Cyber attacks and hybrid Warfare
+
+Increasingly, cyber attacks are being seen as an aspect of what's known as hybrid warfare. As explained by The Conversation, the term hybrid warfare is ill-defined and has changed in meaning over the past ten years or so since it came into use. Increasingly, however, it's used to describe the typical cyber warfare practices laid out here with efforts to disrupt democratic processes.
+
+For example, in the run-up to an election, "Group A" may engage in efforts to alter sentiment through channels like social media while simultaneously targeting the websites of its main competitors, "Group B" and "Group C", with DDoS attacks or cyber vandalism.
+
+Often, it won't be Group A itself that engages in these activities, but instead, it will outsource to companies that specialise in the spreading of disinformation and hackers for hire. This makes it more difficult to trace back.
+
+This is a tactic also seen in state-sponsored cyber attacks, where countries claim an attack originates from "patriotic hackers" acting on their own terms without any persuasion or reward from the state.
+
+Indeed, when it comes to nation-states, we can see another aspect of hybrid cyber warfare when cyber attacks are carried out alongside "kinetic attacks", which is to say traditional warfare tactics like bombs. This is similar to when, in the past, saboteurs would target critical infrastructure ahead of an invasion, only now the attacks can happen remotely.
+
+However, the presence of cyber warfare doesn’t rule out armed conflict in the “real” world. President Joe Biden recently warned that the US could end up in a “shooting war” with a major power as a result of a cyber attack. During a visit to the Office of the Director of National Intelligence in late July 2021, Biden said that he believes that if the US gets involved in “a real shooting war with a major power, it’s going to be as a consequence of a cyber breach of great consequence”. He also went on to describe Russian president Vladimir Putin as “dangerous”, with Russia being previously accused of being behind last year’s SolarWinds cyber attack which saw hackers infiltrate the networks of hundreds of companies as well as nine US governmental agencies.
+
+This was denied by the head of the Russian Foreign Intelligence Service (SVR), who told the BBC that he is "flattered" by the accusations from US and UK authorities, yet added that he could not "claim the creative achievements of others as his own". Nevertheless, the US responded by imposing trade restrictions on four Russian IT firms as well as two other entities over “aggressive and harmful” activities.
+
+### False flags
+
+The only cyber weapon that is perhaps even more dangerous and disruptive than the zero-day is the false flag. We know that, for example, the attack by the so-called 'Cyber Caliphate' claiming to be affiliated to ISIS on a US military database was a false flag operation by the Russian state-sponsored hacking group APT 28. Why does this matter? Because the US retaliated with kinetic attacks on cyber communication channels and drone strikes against human targets in Syria. 

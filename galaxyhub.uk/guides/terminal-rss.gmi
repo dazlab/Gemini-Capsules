@@ -1,0 +1,31 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# Read RSS Feeds Directly from the Terminal
+### Focus on what's important in the world and cut out all those cat meme distractions with a terminal-based text-only news reader.
+
+What sort of world have we created? An open Internet was supposed to be a bastion of human knowledge, where we could all share our thoughts, contribute to the advancement of human knowledge, and have an occasional game of Quake. What did we get instead? Facebook and a web of endless adverts and faux top-ten buying guides.
+
+One of the standards that grew out of the early(ish) Web was RSS (Really Simple Syndication) that was originally built into Netscape Navigator in 1999. It gave websites a way to announce updated content in a minimal way. Its popularity has come and gone, but RSS has stuck around even after Google Reader was killed off and the competing ATOM standard was launched.
+
+An RSS feed offers a distraction-free way to obtain updates from your favourite website. If you combine this with the terminal, then it means the latest news can be delivered directly to your favourite place of work.
+
+In this Galaxy Guide, we're going to take a look at NewsBoat [1]. It's certainly not the only option, but it's currently actively developed, it's in most repos, there's a Snap package (collective groaning aside), it offers built-in HMTL rendering, advanced filters, basic podcast support and loads more.
+
+=> https://newsboat.org/ NewsBoat
+
+## Getting Started
+To install NewsBoat on Ubuntu and Debian, type:
+
+```
+$ sudo apt install newsboat
+```
+
+It's in both distro's repos. If you don't mind Snaps, although it would be overkill for a terminal tool, then:
+
+```
+$ sudo snap install newsboat
+```
+
+If you want the latest bleeding-edge version you can clone the Git, ensure you have all the build tools and dependencies, and then compile it from source. Full details on how to do that are in the online manual [2].
+
+=> https://tinyurl.com/APC500RSS NewsBoat Online manual

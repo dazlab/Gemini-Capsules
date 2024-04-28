@@ -1,0 +1,12 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# The End of the GPU Duopoly
+### Rivals eye the lucrative GPU market.
+
+For years, there has effectively been a GPU duopoly; nVidia and AMD control roughly 80 and 20 percent of the market respectively. However, the growth of cloud services, AI, and other intensive HPC applications has fuelled a resurgence in GPU development. The most obvious new contender is Intel, which started developing its discrete graphics card business in 2017.
+
+Early next year, we will see the first fruits: the Arc Alchemist (the DG2 as was). There will be four variants, the beefiest being the DG-512EU - sporting 512 EUs, this is aimed squarely at GeForce RTX and Radeon RX territory. Intel has hinted at a price comparable with a GTX RTX 3080.
+
+Meanwhile, in China, Xindong has previewed its Fenghua No.1 graphics card, and the spec sheet reads well: GDDR6X memory, support for the latest APIs, including Vulkan. The company is aiming the GPU at everything from data centers to desktops. Another Chinese company, Zhaoxin, has demonstrated a prototype discrete card.
+
+nVidia and AMD finally have competition, and it can't come soon enough. We need more cards now and anything that might help push down prices is good news.

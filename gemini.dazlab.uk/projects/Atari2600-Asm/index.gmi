@@ -1,0 +1,20 @@
+# LEARN WITH ME : 6502 Assembly Language Programming
+# Programming the Atari 2600
+
+I started learning to program using very high-level languages, like Python and BBC BASIC. The thing is, it's far too easy to forget just how many layers of software you're building on top of. At the fundamental level, it is often said that Assembly Language and Machine Code are at the root of if all, but this is only true in part; even Assembly Language relies on abstraction. The infamous three-letter mnemonics get translated down to their respective op-codes. But, you see, even these op-codes are an abstraction. They've been made available by chip manufacturers to trigger a whole series of circuit operations that - at the hardware level - set a series of electrical states using latches, flip-flops, and primitive gates, producing a consistent output. Here, then, we really are at the root of all things. I don't know how exactly you would tell a microchip to trigger a cascade of activity based on it being fed an elecrical impulse in a given pattern, but this is what happens nontheless.
+
+As interesting as it would be to mess around with logic gates, in this series I'm going to climb the abstraction ladder just a bit.
+
+## Why Not x86_64?
+While you might think that if you're going to start playing with Assembly it would be a good idea to do it within a modern context, I'll explain my reasoning here. You see, modern assembly language hides a lot. Modern systems use a protected memory model, so you're never writing directly to hardware. In Windows, you're triggering interrupts. In Linux/UNIX systems you're making System Calls. Essentially, you're communicating with the hardware by making kernel requests. These interrupts/system calls expect certain registers to contain certain values, and then the kernel will go off and talk to the hardware controller.
+
+In 8-Bit systems, there was no concept of protected memory space. Every device was mapped to memory directly, which meant that to write to the screen you would enter values directly into screen memory. Each pixel is mapped to it's own memory address, and you can turn that pixel on by storing information at that address.
+
+For full disclosure, I have absolutely no idea how to program the 6502. This will be a voyage of discovery, and I document this simply because writing down concepts helps solidify my understanding. If some lone wanderer stumbles across this and finds it useful/entertaining/interesting then great.
+
+## A Peek
+
+The following screenshot gives a flavour of the assembly syntax used in the 6502:
+=> gemini://gemini.dazlab.uk/projects/Atari2600-Asm/img/ex1.png Sample Code
+
+Also, the Atari 2600 actually used a 6507, which is actually a cheaper, stripped-down version of the 6502. It only uses 13 of the 16 address lines, and had no interrupt capabilities.

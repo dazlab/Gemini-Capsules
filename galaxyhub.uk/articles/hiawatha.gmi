@@ -1,0 +1,244 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+# The Light-Footed Hiawatha Web Server
+## Hiawatha is a lightweight Web server with a variety of features that distinguish it from heavyweights such as Apache.
+
+### Introduction to Hiawatha
+
+Most people intuitively think of Apache first when they hear "Web server". The program is not only one of the longest serving of its kind, but it has built a reputation over the years of being a smart and stable product. Admittedly, there are other options: Nginx has long since become the better option. If you can't handle the massive feature set of Nginx or Apache, you'll regularly end up with Lighttpd, which is limited to the bare essentials in many respects. Only rarely do people settle on Hiawatha [1].
+
+=> https://www.hiawatha-webserver.org/ Hiawatha - An Advanced & Secure Web Server for Unix [1]
+
+The bottom line is that Hiawatha very much offers a valid alternative to Apache, Nginx, Lighttpd, and other Web servers if you don't need - or want - exotic features.
+
+### What Hiawatha Can Do
+
+Anyone researching Hiawatha on the Web will be confronted with a variety of possible explanations for the origin of the word. It is a social dance dating back to the 1920s, the mythical leader of the Iroquis Five Nations sometime between the 11th and 18th centuries, or the Iroquis euphemism for "he who rises early". Although it seems likely that the Indian chief was the inspiration, it remains unclear why the author of the software chose this name. At least we know who programmed Hiawatha: Hugo Leisink was a computer science student from the Netherlands when he started working on the program in 2002. Unlike Linus Torvalds a good decade earlier, he did not do this on a mere whim. Instead, the Web servers available at the time, especially Apache, got on his nerves for several reasons.
+
+If you think back to that time, you will recall an era when powerful scripting languages like PHP existed, but they didn't have the quality or prevalence they have today. If you wanted to execute code in the context of a Web server, you would tend to use Common Gateway Interface (CGI) scripts; however, Web servers gave them practically free rein. Apache, for example, did not define a maximum length of time a CGI script could take to return either a positive or negative value. If you attacked CGI scripts with a certain amount of skill, you could take down an entire Web server with a single script.
+
+This made Leisink so mad that he devised a new Web server. The idea behind Hiawatha was born, and the program was designed to deliver the security features that Leisink very much missed in the competitors. Although the tool still claims to be a very lean, nimble server for HTTP(S), some features have been added over the years.
+
+### CGI and FastCGI
+
+To date, Hiawatha provides comprehensive support for CGI and FastCGI. THe constraints that Leisink created and built into the software back in 2002 are still available. If you as the admin want to restrict CGI scripts to a certain runtime, you can configure it in Hiawatha. If a script goes over the top, Hiawatha takes care of it by firing off a hard-hitting "kill -9", without any administrator intervention. However, this is not the only useful feature the solution offers; Hiawatha was also one of the first Web servers to include large file support in its specifications. Admittedly, this doesn't sound particularly spectacular today, but there are still Web servers from the small solutions segment that trip up when it comes to larger files.
+
+### Reverse Proxying Is Easy
+
+An increasingly common use case for Web servers, because of security concerns, is as a reverse proxy. A proxy server serves a client on a private network that uses it to connect to the outside world. Many corporate networks today are so strongly protected by firewalls that it is virtually impossible to access resources behind the various firewall layers from the outside. This is where reverse proxies come in: They accept an incoming connection from the Internet on one side and have a route to the network where the destination service is located. The reverse proxy then uses this route as a transparent intermediary to handle the data traffic between the client and the service. For enterprises, this offers an attractive alternative to turning the firewall into Swiss cheese because it requires less overhead and makes some use cases possible that could not be implemented otherwise because of excessively strict security measures. Apache and Nginx easily support use as a reverse proxy, but it seems slightly over the top to install the huge feature sets of the two servers to handle what is a relatively easy task. Leisink thought so too, and implemented support as a reverse proxy in Hiawatha at an early stage. In a few lines of code, you can implement what would otherwise mean considerable bloat in the system if you detoured via Apache or Nginx.
+
+### No Features? Think Again
+
+If you hear that Hiawatha is a light-footed Web server and immediately assume massively reduced functionality, you are thoroughly mistaken. The complicated rewriting of URLs that solutions like WordPress or Joomla often require is also supported by Hiawatha. The server uses the URL Toolkit, a custom Hiawatha component that bundles URL rewriting logic, for this purpose. As a result, Hiawatha is perfectly suited to running Web 2.0 applications like WordPress, and because the Web server has a complete Transport Layer Security (TLS) implementation, it can be done on an encrypted basis. Hiawatha also supports basic HTTP login with digest access or basic authentication, which is essential, for example, for accessing the admin interfaces of many Web projects.
+
+### No Data Flooding
+
+Other features from the security corner include the ability to set up connection throttling at the Web server level, which involves specifying the permitted upload speed for individual clients. This feature prevents users from wrecking individual Web server instances by saturating their lines with targeted, parallel, multiple uploads. Of course, protection at the software level is not enough to protect servers against large-scale DDoS attacks; instead, you have to start on the network level, but at least small attacks are reliably stopped by Hiawatha in this way. Built-in caching also enables the server to process incoming and outgoing requests faster and with lower resource consumption. Support for HTTP compression by Gzip, which Hiawatha has also been offering for a few years, is in the same vein.
+
+### Preventing XSS and CSRF Attacks
+
+Cross-site scripting (XSS) is a classic attack vector for targeting Web servers. The danger potentially exists wherever Web applications handle user input. Attacks are usually launched by bots running automatically.
+
+In XSS attacks, attackers, in simple terms, access the infrastructure behind the Web server. To do so, they exploit vulnerabilities in the respective Web applications that do not consistently prevent unauthorised access. For example, if a Web solution has a search for usernames that triggers a MySQL call in the background, a typical XSS attack would be to enter a MySQL command in the search form. This particular form of XSS attack is quite common, and even has its own name: SQL Injection. If the software is not hardened against XSS attacks, it forwards the illegal command directly to the database, where it ends up being executed.
+
+Cross-site Request Forgery (CSRF) works the other way around, wherein attackers exploit the rights of legitimately logged-in users or their browser sessions to send commands to Web servers that the legitimate users do not want to send.
+
+The problem with these and other similar attacks is that for a long time Web servers have almost completely ignored this attack vector and declared themselves not responsible. Hiawatha has been a clear exception to this rule for a ling time: The server has code that tries to detect XSS and CSRF attacks on the basis of various parameters and prevents them if ongoing HTTP(S) sessions meet the attack criteria. The framework that tries to detect attacks does even more in Hiawatha: It not only watches out for the signs of XSS and CSRF, it also detects clients that produce high volumes of traffic in a short time or send unusual HTTP requests. The admin defines the individual parameters for the engine that detects attacks in the server's configuration file.
+
+### Monitoring Included
+
+Although virtually all modern software programs collect metrics data on their own usage and make the data available through a standardised interface, Web servers have long held back on the subject of trending. Hiawatha also adopts a special approach: The tool writes copious amounts of metrics data as defined by its author. The web server includes a PHP-based mini-application named Hiawatha Monitor that retrieves the collected metrics data from the Web server and outputs the data to the admin.
+
+Because the Hiawatha Monitor is based on Banshee [2], the tool also visualises received usage data. Although it cannot be compared in form and scope with the kind of data collection that a combination of Prometheus and Grafana archives, it is definitely better than nothing. Hiawatha cannot be connected to Prometheus in a meaningful way because no suitable exporter can output the metrics data available in Hiawatha to Prometheus.
+
+### Tomahawk Command Shell
+
+All relevant Hiawatha parameters can be set in a configuration file, but changes require restarting the tool. Depending on the situation, a restart is not always possible, which is why Hiawatha can be read out in the shell.
+
+More importantly, however, the command shell, dubbed Tomahawk, supports reconfiguration of the Web server on the fly. IPs that have ended up on Hiawatha's internal blacklist can be permanently removed here; otherwise, Hiawatha would simply no longer serve these clients. All current connections can be terminated by the "kick" command.
+
+# Getting Started
+
+All in all, Hiawatha is clearly a powerful Web server that can be implemented with very little in terms of resources, and it does not need to shy away from comparisons with competitors such as Apache or Nginx. What is less fortunate, however, is what admins have to do to set up a running instance of the service; Unlike Apache and Nginx, most distributions do not include Haiwatha. You can't get by with just a little tinkering. That said, the reward is a clear-cut, easy-to-edit configuration.
+
+The first step is to install Hiawatha, which will depend on the distribution you are using. Because Hiawatha is not very widespread, you will often search in vain for pre-built packages for the major distributions. Debian packages for "Buster" are available from a separate package repository [3]. After adding it to the package sources and enabling the GPG key for the repository, the command:
+
+```
+apt install Hiawatha
+```
+
+retrieves the package, including all its dependencies, and drops it on your system.
+
+Life could also be great, theoretically, in the CentOS universe. Resourceful Haiwatha fans used to maintain packages for CentOS a few years ago. They were released in the Anku repository [4] with extensions for CentOS and RHEL. However, only one package for the ancient Hiawatha 10.8.4 is currently present, and that is only for CentOS 7. Packages for the current version 10.11 for CentOS 8 are missing.
+
+Similar problems exist on Ubuntu: The only Haiwatha PPA delivers packages in a prehistoric state for Ubuntu 18.04 only. Users of macOS or the various BSD derivatives are somewhat better off, because Hiawatha is part of the port system and can thus be compiled automatically from sources.
+
+### Compiling
+
+Hiawatha uses Cmake and doesn't have many parameters for the admin to specify when building. The recommendation is to build a Haiwatha package yourself instead of compiling the software on your production systems. To do so, first download the source code from the Haiwatha website [5]. The compilation process then consists of the commands
+
+```
+mkdir build
+cd build
+cmake ..
+sudo make install /strip
+```
+
+A quick look at the install file in the source code reveals which parameters Cmake basically supports for Hiawatha. Primarily, this means the paths on the filesystem you want Hiawatha to use, but you can also specify whether Tomahawk should be built, and support for TLS should be added, along with whether Hiawatha needs the extension to operate as a reverse proxy. Most parameters default to ON, which activates the respective function. However, you are free to change the values to your own liking - a feature you don't need in the first place doesn't have to bloat the Haiwatha binary unnecessarily.
+
+After completing the build, it's time for the configuration. The following example assumes that /etc is set as the CONFIG_DIR - that is, that Haiwatha expects its configuration file to be in
+
+```
+/etc/hiawatha.hiawatha.conf
+```
+
+It also requires that
+
+```
+/var/www/
+```
+
+be set as WEBROOT_DIR, where Hiawatha looks for the Web content at build time (although the parameter can be changed later by configuration).
+
+### The Simplest Web Server
+
+If you only want Hiawatha to listen on port 443 with a TLS certificate, your configuration file will be very simple.
+
+```
+Binding {
+  Port = 443
+  TLSCertFile = /etc/ssl/www-certificate.pem
+}
+```
+
+Unlike Apache, Hiawatha expects all components belonging to the TLS certificate to be in the same file. The referenced ssl-certificate.pem must therefore contain both the TLS certificate itself and the key belonging to it, as well as any required TLS certificate authority (CA) and intermediate CA certificates. The order is important: First the file must contain the private key, then the certificate, and then additional CA or intermediate certificates. Once all of this is in place, the configuration is complete, and whatever is in WEBROOT_DIR can be retrieved by Hiawatha.
+
+Admittedly, this basic configuration might not make most admins very happy - a few parameters are probably still needed for regular operation. For example, you will not usually want to run the Web server with the root rights of the system administrator, but as a less privileged user account that you can specify with ServerId in the configuration file. SystemLogFile and GarbageLogFile let you define the logfiles that Hiawatha uses.
+
+### Virtual Hosts
+
+One of the most-used Apache features might be virtual hosts. The idea behind this is to have many Web addresses point to one IP address. The Web server then delivers the correct website according to the URL passed in from the request headers. Hiawatha also uses this feature, and it is comparatively easy to set up. In addition to the Binding statement used earlier, the listing below is all you need to define a virtual host that can execute PHP files in Hiawatha. Most important is that the TLScertFile statement is shifted from the Binding to the VirtualHost statement to allow Hiawatha to use different TLS certificates for different virtual hosts.
+
+```
+CGIhandler = /usr/bin/perl:pl
+CGIhandler = /usr/bin/php-cgi:php
+CGIhandler = /usr/bin/python:py
+CGIhandler = /usr/bin/ruby:rb
+CGIhandler = /usr/bin/ssi-cgi:shtml
+CGIextension = cgi
+
+FastCGIserver {
+  FastCGIid = PHP7
+  ConnectTo = /run/php/php7.0-fpm.sock
+  Extension = php
+}
+
+VirtualHost {
+  Hostname = www.example.net
+  WebsiteRoot = /var/www/example.net/public
+  StartFile = index.php
+  AccessLogfile = /var/www/example.net/log/access.log
+  ErrorLogfile = /var/www/example.net/log/error.log
+  TimeForCGI = 5
+  UseFastCGI = PHP7
+  TLScertFile = /etc/ssl/example-net.pem
+}
+```
+
+### Security Settings
+
+So far in the examples we have not covered the security features of - and fraud detection in - Hiawatha, which no admin would want to be without in everyday life. The following lines in the VirtualHost blob would enable attack detection:
+
+```
+PreventCSRF = yes
+PreventXSS = yes
+PreventSQLi = yes
+```
+
+To enable automatic client blacklisting, as well, you need to add the lines outside the VirtualHost block in hiawatha.conf:
+
+```
+BanOnGarbage = 300
+BanOnMaxPerIP = 60
+BanOnMaxReqSize = 300
+KickOnBan = yes
+RebanDuringBan = yes
+BanOnSQLi = 60
+BanOnFlooding = 10/1:15
+```
+
+You can see in the listing below that in fewer than 50 lines you have a complete Web server configuration, including various security features, with the lightweight Web server application.
+
+```
+ServerId = www-data
+ConnectionsTotal = 150
+ConnectionsPerIP = 10
+SystemLogfile = /var/log/hiawatha/system.log
+GarbageLogfile = /var/log/hiawatha/garbage.log
+
+Binding {
+  Port = 443
+  MaxRequestSize = 128
+  TimeForRequest = 3.20
+  SSLcertFile = hiawatha.pem
+}
+
+BanOnGarbage = 300
+BanOnMaxPerIP = 60
+BanOnMaxReqSize = 300
+KickOnBan = yes
+RebanDuringBan = yes
+BanOnSQLi = 60
+BanOnFlooding = 10/1:15
+
+CGIhandler = /usr/bin/perl:pl
+CGIhandler = /usr/bin/php-cgi:php
+CGIhandler = /usr/bin/python:py
+CGIhandler = /usr/bin/ruby:rb
+CGIhandler = /usr/bin/ssi-cgi:shtml
+CGIextension = cgi
+
+FastCGIserver {
+  FastCGIid = PHP7
+  ConnectTo = /run/php/php7.0-fpm.sock
+  Extension = php
+}
+
+UrlToolkit {
+  ToolkitID = banshee
+  RequestURI isfile Return
+  Match ^/(favicon.ico|robots.txt|sitemap.xml)$ Return
+  Match .*\?(.*) Rewrite /index.php?$1
+  Match .* Rewrite /index.php
+}
+
+Hostname = 111.111.111.111
+WebsiteRoot = /var/www/hiawatha
+StartFile = index.html
+AccessLogfile = /var/log/hiawatha/access.log
+ErrorLogfile = /var/log/hiawatha/error.log
+```
+
+### Ideal for Containers
+
+The Hiawatha example can even be spun a little further. Because of its manageable size, Hiawatha is also a good candidate as a container Web server that can display arbitrary websites. Once you have built a Hiawatha package as described, you can use it to conjure up a Hiawatha container image quickly on the basis of an existing distribution image for Docker or Podman. If you also use a bind mount to give it access to a configuration file in /etc on the host system, along with folders for storing logfiles, Hiawatha mutates into a generically usable Web server container.
+
+The benefits are that you can avoid Apache or Nginx, which tend t bloat container images. Hiawatha itself only consists of about 1.5MB of source code, plus about 5M of code for the mbedTLS implementation that Leisink ships with Hiawatha. The Hiawatha binary can be practically ignored in terms of size, and because Hiawatha also has far fewer dependencies than Apache or others of that ilk, admins have to handle far fewer loose parts, all told, which also reduces the overall administrative overhead, and not just that for running the Web server itself.
+
+### Interesting for Embedded
+
+Hiawatha is also just as interesting as a Web server in the embedded environment. Small computers like the Raspberry Pi and many devices from the embedded environment have sparse hardware reserves, which is where Hiwatha plays to its strengths. Although current Raspberry Pi implementations no longer suffer so acutely from deficits in terms of CPU and RAM, every CPU cycle and megabyte of RAM you can avoid using still counts.
+
+Even on embedded systems like the Turris Omnia open source router, Hiawatha offers an approach to running a Web server in a resource-efficient way. The economy with which Hiawatha operates makes the service ideal in such environments.
+
+# Conclusions
+
+Hiawatha is a great project and highly interesting for applications in which a simple, well-functioning Web server with basic security features is needed. Many installations that use Apache, Nginx, or similar complex solutions could get by with just the features that Hiawatha offers: the ability to call CGI in the background (usually for PHP), TLS capability, and virtual hosts to run multiple websites on one server.
+
+Hiawatha is far more frugal in its use of resources than its big-name competitors. Especially in environments where CPU cycles and RAM are not available in abundance (e.g., in the embedded arena), Hiawatha is very interesting. Anyone who claims that Hiawatha is more or less a do-it-yourself solution for limited applications is doing the tool an injustice: It is a full-blown Web server with a feature set that is completely sufficient for most requirements.
+
+### Related Links:
+=> https://www.banshee-php.org Banshee Framework [2]
+=> https://files.tuxhelp.org/hiawatha/ Hiawatha for Debian [3]
+=> https://anku,ecualinux.com/7/x86_64/repoview/ Anku Directory [4]
+=> https://www.hiawatha-webserver.org Hiawatha Website [5]

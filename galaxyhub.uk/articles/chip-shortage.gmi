@@ -1,0 +1,20 @@
+=> gemini://galaxyhub.uk/index.gmi Go Back
+
+## Semiconductor Shortage to Last "Well into 2022"
+### The chip shortage will never go away, here's why.
+
+The semiconductor shortage will definitely extend well into 2022 after the chip provider for some of the largest tech companies in the world said that production will struggle to meet the soaring demand for its products.
+
+In an online conference in October, TSMC CEO Dr. C.C. Wei said that TSMC foundry production capacity was still insufficient to satisfy the demand for its chips, especially orders for components used for high-performance computing (HPC) systems and 5G devices using the company's 5nm process node.
+
+If TSMC is stretched thin across its most important process nodes, then a far greater number of industries are going to be impacted by the constrained capacity than if Intel were facing the same production constraints, which impacts the more "traditional" computing market more than anything else.
+
+In fact, even Intel is starting to contract with TSMC to make various chips and is itself starting to make chips for other companies, like Amazon and Qualcomm, to try and meet the global demand for semiconductor components.
+
+The only way the chip shortage will ever be addressed, though, will be to build more foundries to increase capacity, since demand for this most essential component of modern technology is only going to increase in the future as more of everyday life becomes digitised, from smartphones to smart cities.
+
+Dr. Wei also said during the conference that the company expects to begin mass production on its 2nm process node is 2025, and the company broke ground earlier this year on a new foundry in Arizona based on its 5nm process, which is expected to be completed in 2024.
+
+Demand is only increasing, and its growth is likely closer to exponential rather than linear. Adding to the number of fabrication plants isn't going to be enough to keep up when we need to be multiplying the number of plants.
+
+On top of all that, you have a physical supply chain that can disrupt production capacity at any number of points along the way, something we're seeing even with the recent port crisis in the US. All the while, demand might slow or even flatten out a bit, for a while, but it will never suddenly start declining in a way that could allow production to catch up.

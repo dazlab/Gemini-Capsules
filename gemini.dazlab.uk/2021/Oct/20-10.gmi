@@ -1,0 +1,22 @@
+=> gemini://gemini.dazlab.uk/index.gmi Go Back
+
+# Gemini:// My Thoughts
+### 20th October, 2021
+
+Aggressively austere in its implementation, the Gemini protocol offers users a viable alternative to HTTP, particularly to its more recent excesses. Its stated purpose is not to replace the Web, but to address the fundamental issues present within its modern context.
+
+The Web, for all of its wonderfully rich and engaging content, is inherently broken - at least from a privacy perspective; the pervasive and, some would say, insidious use of tracking, targeted advertising, opaque scripting, data collection, increasing centralisation and corporate monopolisation are - at best - highly commercialised and - at worst - frankly, Orwellian.
+
+Google, through its control of search and its ubiquitous Chrome web browser, controls a vast proportion of what users are presented with when searching the Web. Add to that the percentage of its profits (80%) that are generated as a result of advertising, and its not hard to see why it may just be in Big Evil's financial interests to put the needs of commercial enterprise ahead of the best interest of Internet users, and perhaps even lapse into outright skewing where users are directed to when entering a given search term into the algorithm.
+
+=> https://www.investopedia.com/articles/markets/030416/googles-6-most-profitable-lines-business-googl.asp Google Ad Revenue Source
+
+But this article is not about Google. I'll have more to say about them in future posts. No, this article is about a possible future in which the Web, once again, has the potential to exist as a user-controlled digital landscape, and to act as a medium for individual empowerment.
+
+Gemini provides much of what the early Web offered: unregulated digital real estate free from corporate control or ownership; a place where your data is your own, and you - the user - are master and commander of your own domain (pun intended). Gemini respects privacy right out the gate, with TLS-encrypted connections being mandatory. But perhaps its most extreme, yet attractive, feature is that Gemini strips content down to its bones; it puts the client in control of presentation, and allows the vendor (me, in this instance) to produce raw content, without having to get down in the weeks fussing over presentation. In Geminispace Content is King, and woe betide the creator who attempts to hide bad content by dressing it up like a school girl on prom night.
+
+### My Reservations
+
+For all the potential promise I see in Gemini, it's not without its flaws - some of which I feel make it unnecessarily restrictive to use. Take, for example, the decision to disallow inline links: I'm not sure what the thinking behind this is; having inline links shows the reader that there is further information available, if they want it, and it does so without breaking the flow of the content. I feel that having to drop links between paragraphs is awkward and provides no discernible benefit to the person consuming the content. I'm not entirely sure what problem the lack of support for inline links solves, but I do know that supporting free-flowing hyerlinking going forward would bring a host of benefits to Geminispace.
+
+It should be noted that the official Gemini specification is still (at the time of writing) in a profound state of flux.
