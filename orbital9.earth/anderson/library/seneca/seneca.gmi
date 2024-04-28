@@ -1,0 +1,13 @@
+```
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+```
+# Anderson Station
+## Ship's Library/Seneca
+
+###Letters
+=> gemini://orbital9.earth/library/seneca/on-the-use-of-time.gmi ➡️ On the Use of Time
+=> gemini://orbital9.earth/library/seneca/on-the-use-of-time.gmi ➡️ On Discursiveness in Reading

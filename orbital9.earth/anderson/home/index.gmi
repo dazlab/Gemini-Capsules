@@ -1,0 +1,32 @@
+```
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+```
+# Docking at Anderson Station...
+### Welcome, Guest
+Thank you for visiting the Capsule. In my experience, you will fall into one of three categories:
+* First-time visitor, exploring Gemspace
+* Experienced Geminaut, exploring Gemspace
+* Regular patron, returning for new Updates
+
+Whatever one of these categories you fall under, here you will find something that interests you.
+
+=> gemini://localhost Captain's Log
+=> gemini://localhost Current Objectives
+=> gemini://localhost Ship Library
+
+## Bulletin Board
+* New arrivals, please read the introduction:
+=> gemini://localhost Capsule Familiarisation
+
+
+### Orbital9 Sister Stations
+=> gemini://localhost Atlas Station
+=> gemini://localhost Sevastopol Station
+=> gemini://localhost Tiberius Station
+=> gemini://localhost  Aquila Terminal
+
+=> gemini:///c:\users\daz\OneDrive\Desktop\orbital9.earth\anderson\home\anderson_station.png Anderson Station in orbit around Earth

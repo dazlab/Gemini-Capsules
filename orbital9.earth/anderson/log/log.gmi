@@ -1,0 +1,31 @@
+```
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+▌║█║▌│║▌│║▌║▌█║▌│║▌║▌│║║▌█║▌║█
+```
+# Anderson Station
+## Captain's Log
+
+Anderson Station, in orbit around Earth, is just one of four outposts of civilisation within the Earth-Moon system. It is joined in it's orbit of Earth by Atlas Station, and it's Lunar sister stations, Sevastopol and Titanus, orbiting the Moon over 258,000 miles away.
+
+>Do not go gentle into that good night. Rage, rage against the dying of the  light...
+
+## Recent Entries
+=>gemini://orbital9.earth/log/2024/2024-0001.gmi 2024/0007 - Of Silence & Solitude
+=>gemini://orbital9.earth/log/2024/2024-0001.gmi 2024/0006 - Comet
+=>gemini://orbital9.earth/log/2024/2024-0001.gmi 2024/0005 - Dream Logic
+=>gemini://orbital9.earth/log/2024/2024-0001.gmi 2024/0004 - The Importance of Being
+=>gemini://orbital9.earth/log/2024/2024-0001.gmi 2024/0003 - Signs & Wonders
+=>gemini://orbital9.earth/log/2024/2024-0001.gmi 2024/0002 - Et tu?
+=>gemini://orbital9.earth/log/2024/2024-0001.gmi 2024/0001 - A Change, and a Sacrifice
+
+## 2023
+=>gemini://orbital9.earth/log/2024/2024-0001.gmi 2023/9814 - A Bird in the Hand
+
+```
+
+I do not regard a man as poor, if the little which remains is enough for him
+
+```
