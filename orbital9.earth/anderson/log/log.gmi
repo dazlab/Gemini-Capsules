@@ -8,7 +8,7 @@
 # Anderson Station
 ## Captain's Log
 
-Anderson Station, in orbit around Earth, is just one of four outposts of civilisation within the Earth-Moon system. It is joined in it's orbit of Earth by Atlas Station, and it's Lunar sister stations, Sevastopol and Titanus, orbiting the Moon over 258,000 miles away.
+Anderson Station, just one of four outposts of civilisation within the Earth-Moon system, orbits the Earth. It is joined in it's orbit by Atlas Station, and it's Lunar sister stations, Sevastopol and Titanus, orbiting the Moon over 258,000 miles away.
 
 >Do not go gentle into that good night. Rage, rage against the dying of the  light...
 

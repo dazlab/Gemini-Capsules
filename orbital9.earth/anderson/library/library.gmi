@@ -8,6 +8,6 @@
 # Anderson Station
 ## Ship's Library
 
-We must never forget our origins - as individuals, nor as a collective. Knowledge is our only true legacy. Out here, in Gemspace, we surround ourselves with such wondrous things. We must not allow ourselves to forget our genesis. 
+We must never forget our origins - as individuals, nor as a collective. Humankind may be a transient phenomenon. Knowledge is our only true legacy. Out here, in Gemspace, we surround ourselves with such wondrous things. We must not allow ourselves to forget the genesis of our kind..
 
 => gemini://orbital9.earth/library/seneca.gmi Seneca's Letters
